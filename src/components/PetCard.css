@@ -1,0 +1,232 @@
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.small-card {
+  width: flex;
+  padding: 16px;
+  text-align: center;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.avatar {
+  width: 130px;
+  height: 130px;
+  border-radius: 16px;
+  object-fit: cover;
+  border: 3px solid transparent;
+  background: #fff;
+  padding: 2px;
+}
+
+.pet-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.element {
+  padding: 4px 10px;
+  border-radius: 12px;
+  color: white;
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.title-center {
+  text-align: center;
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: #f5f5f5;
+}
+
+.filter-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+.detail-card {
+  background: #1a1a1d;
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.pet-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.left-section {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.right-section {
+  flex: 1;
+}
+
+/* 种族值标题下划线 */
+.right-section h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #444;
+}
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+  min-width: 250px;    /* 🔥 固定最小宽度，小于这个宽度就出现滚动条 */
+
+}
+
+.stat {
+  background: #2a2a2e;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #2a2a2e;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.skill-icon {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 6px;
+}
+
+.skill-name {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.skill-desc {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.back-btn {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 12px;
+  border: 2px solid #444;
+  background: #1a1a1d;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+.back-btn:hover {
+  background: #2a2a2e;
+}
+
+.trait-box {
+  display: flex;
+  align-items: center;
+  background: #2a2a2e;
+  padding: 8px 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.trait-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  object-fit: contain;
+}
+.trait-text {
+  flex: 1;
+  text-align: center;
+}
+.trait-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+.trait-desc {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.name-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.pet-name {
+  margin: 0;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .pet-layout {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .detail-card {
+    padding: 25px 20px;
+    width: flex;
+  }
+  .avatar {
+    width: 120px;
+    height: 120px;
+  }
+  .pet-name {
+    font-size: 22px;
+  }
+  .stat-grid {
+    grid-template-columns: 1fr;
+  }
+}
