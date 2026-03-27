@@ -1,52 +1,52 @@
-const petList3 = [
-    {id:21,name:"小灵菇",element:["幽"],
-        avatar:"/public/images/21.png",
+const petList4 = [
+    {id:31,name:"叮叮恶魔",element:["恶","翼"],
+        avatar:"/public/images/31.png",
         hp:89,atk:79,mat:79,def:83,mdf:109,spd:60,
         trait:{name:"毒蘑菇",desc:"回合结束偷取敌方1能量。"}
     },
-    {id:22,name:"幻灵菇",element:["草","幽"],
-        avatar:"/public/images/22.png",
+    {id:32,name:"毛毛",element:["虫","萌"],
+        avatar:"/public/images/32.png",
         hp:89,atk:79,mat:79,def:83,mdf:109,spd:60,
         trait:{name:"毒蘑菇",desc:"回合结束偷取敌方1能量。"}
     },
-    {id:23,name:"幻影灵菇",element:["草","幽"],
-        avatar:"/public/images/23.png",
+    {id:33,name:"爬爬",element:["虫","萌"],
+        avatar:"/public/images/33.png",
         hp:89,atk:79,mat:79,def:83,mdf:109,spd:60,
         trait:{name:"毒蘑菇",desc:"回合结束偷取敌方1能量。"}
     },
-    {id:24,name:"石肤蜥",element:["地"],
-        avatar:"/public/images/24.png",
+    {id:34,name:"化蝶",element:["虫","萌"],
+        avatar:"/public/images/34.png",
         hp:89,atk:79,mat:79,def:83,mdf:109,spd:60,
         trait:{name:"刺肤",desc:"每受到1次攻击，对攻击自己的精灵造成50威力物理伤害。"}
     },
-    {id:25,name:"石刺蜥",element:["地"],
-        avatar:"/public/images/25.png",
+    {id:35,name:"幽影树",element:["幽","草"],
+        avatar:"/public/images/35.png",
         hp:89,atk:79,mat:79,def:83,mdf:109,spd:60,
         trait:{name:"刺肤",desc:"每受到1次攻击，对攻击自己的精灵造成50威力物理伤害。"}
     },
-    {id:26,name:"石刺王蜥",element:["地"],
-        avatar:"/public/images/26.png",
+    {id:36,name:"小鼠獭",element:["普通","水"],
+        avatar:"/public/images/36.png",
         hp:89,atk:79,mat:79,def:83,mdf:109,spd:60,
         trait:{name:"刺肤",desc:"每受到1次攻击，对攻击自己的精灵造成50威力物理伤害。"}
     },
-    {id:27,name:"布是石",element:["地"],
-        avatar:"/public/images/27.png",
+    {id:37,name:"燕尾獭",element:["普通","水"],
+        avatar:"/public/images/37.png",
         hp:89,atk:79,mat:79,def:83,mdf:109,spd:60,
         trait:{name:"地脉",desc:"初始能量为0，入场前己方精灵每放1次地系技能，回复3能量。"}
     },
-    {id:28,name:"布是岩",element:["地"],
-        avatar:"/public/images/28.png",
+    {id:38,name:"卷胡巨獭",element:["普通","水"],
+        avatar:"/public/images/38.png",
         hp:89,atk:79,mat:79,def:83,mdf:109,spd:60,
         trait:{name:"地脉",desc:"回合结束偷取敌方1能量。"}
     },
-    {id:29,name:"布克棱岩",element:["地"],
-        avatar:"/public/images/29.png",
+    {id:39,name:"矿晶虫",element:["光","地"],
+        avatar:"/public/images/39.png",
         hp:89,atk:79,mat:79,def:83,mdf:109,spd:60,
         trait:{name:"地脉",desc:"初始能量为0，入场前己方精灵每放1次地系技能，回复3能量。"}
     },
-    {id:30,name:"恶魔叮",element:["恶","翼"],
-        avatar:"/public/images/30.png",
+    {id:40,name:"晶石蜗",element:["光","地"],
+        avatar:"/public/images/40.png",
         hp:89,atk:79,mat:79,def:83,mdf:109,spd:60,
-        trait:{name:"渴求",desc:"入场时获得50%吸血。"}
+        trait:{name:"毒蘑菇",desc:"回合结束偷取敌方1能量。"}
     },
 ]
