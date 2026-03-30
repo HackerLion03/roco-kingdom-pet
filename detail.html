@@ -15,6 +15,11 @@
 <script src="data/pets4.js"></script>
 <script src="data/pets5.js"></script>
 <script src="data/pets6.js"></script>
+<script src="data/pets7.js"></script>
+<script src="data/pets8.js"></script>
+<script src="data/pets9.js"></script>
+<script src="data/pets10.js"></script>
+
 
 <div class="page-container">
   <button class="back-btn" onclick="history.back()">← 返回图鉴</button>
@@ -22,7 +27,7 @@
 </div>
 
 <script>
-const petList = [...petList1, ...petList2, ...petList3, ...petList4, ...petList5, ...petList6];
+const petList = [...petList1, ...petList2, ...petList3, ...petList4, ...petList5, ...petList6, ...petList7, ...petList8, ...petList9, ...petList10];
 const params = new URLSearchParams(location.search);
 const id = parseInt(params.get("id"));
 const pet = petList.find(p => p.id === id);
