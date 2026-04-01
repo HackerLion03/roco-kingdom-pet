@@ -13,6 +13,6 @@
 ## 版权声明
 
 © 2026 洛克王国宠物图鉴 Developed by @HackerLion03
- 本项目部分数据与内容引用自 B站洛克王国Wiki https://wiki.biligame.com/rocom/，其版权归哔哩哔哩游戏wiki所有。
- 洛克王国游戏及相关IP版权归腾讯公司所有。
- 本项目仅用于学习交流，非官方应用，无任何商业用途。
+- 本项目部分数据与内容引用自 B站洛克王国Wiki https://wiki.biligame.com/rocom/，其版权归哔哩哔哩游戏wiki所有。
+- 洛克王国游戏及相关IP版权归腾讯公司所有。
+- 本项目仅用于学习交流，非官方应用，无任何商业用途。
