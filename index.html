@@ -3,39 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>洛克王国宠物图鉴</title>
+  <title>洛克王国：世界 宠物图鉴</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- favicon 小图标 -->
+  <link rel="icon" href="leologo/leo_favicon.png" type="image/png">
+  <link rel="shortcut icon" href="leologo/leo_favicon.png" type="image/png">
+
 </head>
 <body>
 
-<script src="data/config.js"></script>
-<script src="data/pets1.js"></script>
-<script src="data/pets2.js"></script>
-<script src="data/pets3.js"></script>
-<script src="data/pets4.js"></script>
-<script src="data/pets5.js"></script>
-<script src="data/pets6.js"></script>
-<script src="data/pets7.js"></script>
-<script src="data/pets8.js"></script>
-<script src="data/pets9.js"></script>
-<script src="data/pets10.js"></script>
-<script src="data/pets11.js"></script>
-<script src="data/pets12.js"></script>
-<script src="data/pets13.js"></script>
-<script src="data/pets14.js"></script>
-<script src="data/pets15.js"></script>
-<script src="data/pets16.js"></script>
-<script src="data/pets17.js"></script>
-<script src="data/pets18.js"></script>
-<script src="data/pets19.js"></script>
-<script src="data/pets20.js"></script>
+<!-- 顶部导航：左侧标题 + 右侧菜单 -->
+<div class="top-bar">
+  <h1>洛克王国：世界 宠物图鉴</h1>
 
-
-<div class="page-container">
-  <div class="title-center"><h1>洛克王国宠物图鉴</h1></div>
-  <div class="filter-bar" id="filterBar"></div>
-  <div class="pet-grid" id="petGrid"></div>
+  <div class="top-menu">
+    <button class="top-menu-btn" onclick="location.href='index.html'">
+      <img src="leologo/pet_icon.png" class="menu-icon" alt="图鉴">
+      宠物图鉴
+    </button>
+    <button class="top-menu-btn" onclick="location.href='weakness.html'">
+       <img src="leologo/element_icon.png" class="menu-icon">属性克制
+    </button>
+  </div>
 </div>
+
+<!-- 内容区域 -->
+<div class="content">
+  <div class="page-container">
+    <div class="filter-bar" id="filterBar"></div>
+    <div class="pet-grid" id="petGrid"></div>
+  </div>
+</div>
+
+<script src="load-pets.js"></script>
 
 <script>
 const petList = [...petList1, ...petList2, ...petList3, ...petList4, ...petList5, ...petList6, ...petList7, ...petList8, ...petList9, ...petList10,
@@ -46,24 +47,33 @@ renderPets(petList);
 
 function renderFilters() {
   const bar = document.getElementById("filterBar");
+  // 先清空
+  bar.innerHTML = "";
+
   allElements.forEach(el => {
     const btn = document.createElement("button");
     btn.className = "filter-btn";
 
-    // 给属性标签加上对应颜色
     if (el !== "全部" && elementColors[el]) {
       btn.style.backgroundColor = "#fff";
       btn.style.color = elementColors[el];
       btn.style.border = `2px solid ${elementColors[el]}`;
-      // 插入图标
       btn.innerHTML = `<img src="public/icons/${el}.png" class="filter-icon">${el}`;
     } else {
       btn.textContent = el;
       btn.style.border = `2px solid #ccc`;
-
     }
-    
-    btn.onclick = () => filterPets(el);
+
+    // 👇 点击切换 active（单选逻辑，同一时间只有一个选中）
+    btn.onclick = () => {
+      // 先清空所有 active
+      document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+      // 给当前按钮加 active
+      btn.classList.add("active");
+      // 执行原来的筛选
+      filterPets(el);
+    };
+
     bar.appendChild(btn);
   });
 }
@@ -86,7 +96,7 @@ function renderPets(pets) {
     <div style="display:flex;gap:4px;justify-content:center;margin-top:6px;flex-wrap:wrap">
       ${elems.map(e => `
       <span class="element" style="background:#f8f8f8; border:2px solid ${elementColors[e]}; color:#0e0e0e; display:inline-flex; align-items:center; gap:4px;">
-        <img src="public/icons/${e}.png" class="element-icon" ">
+        <img src="public/icons/${e}.png" class="element-icon">
         ${e}
       </span>
       `).join('')}

@@ -5,32 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>宠物详情</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- 👇 核心：favicon 代码，直接复制 -->
+  <link rel="icon" href="leo_favicon.png" type="image/png">
+  <link rel="shortcut icon" href="leo_favicon.png" type="image/png">
+  <!-- 补充PNG格式，适配现代浏览器 -->
+  <link rel="icon" href="favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="favicon-16x16.png" type="image/png" sizes="16x16">
+
 </head>
 <body>
 
-<script src="data/config.js"></script>
-<script src="data/pets1.js"></script>
-<script src="data/pets2.js"></script>
-<script src="data/pets3.js"></script>
-<script src="data/pets4.js"></script>
-<script src="data/pets5.js"></script>
-<script src="data/pets6.js"></script>
-<script src="data/pets7.js"></script>
-<script src="data/pets8.js"></script>
-<script src="data/pets9.js"></script>
-<script src="data/pets10.js"></script>
-<script src="data/pets11.js"></script>
-<script src="data/pets12.js"></script>
-<script src="data/pets13.js"></script>
-<script src="data/pets14.js"></script>
-<script src="data/pets15.js"></script>
-<script src="data/pets16.js"></script>
-<script src="data/pets17.js"></script>
-<script src="data/pets18.js"></script>
-<script src="data/pets19.js"></script>
-<script src="data/pets20.js"></script>
-
-
+<script src="load-pets.js"></script>
 
 <div class="page-container">
   <button class="back-btn" onclick="history.back()">← 返回图鉴</button>
@@ -67,6 +53,7 @@ if (pet) {
             `).join('')}
         </div>
 
+        <h3>特性</h3>
         <div class="trait-box" style="display:flex; align-items:center; gap:12px;">
           <img src="public/traits/${pet.trait?.name || 'default'}.png" class="trait-icon" alt="特性图标">
           <div class="trait-text">
@@ -78,13 +65,42 @@ if (pet) {
 
       <div class="right-section">
         <h3>种族值</h3>
-        <div class="stat-grid">
-          <div class="stat">血量 ${pet.hp}</div>
-          <div class="stat">攻击 ${pet.atk}</div>
-          <div class="stat">魔攻 ${pet.mat}</div>
-          <div class="stat">防御 ${pet.def}</div>
-          <div class="stat">魔抗 ${pet.mdf}</div>
-          <div class="stat">速度 ${pet.spd}</div>
+        <div class= "stats-grid">
+          
+          <div class="stat-radar-3d">
+            <!-- 六边形网格 -->
+            <div class="radar-grid">
+            </div>
+
+            <!-- 数值区域 -->
+            <div class="radar-area" style="
+              --hp: ${pet.hp /3}%;
+              --atk: ${pet.atk /3}%;
+              --mat: ${pet.mat /3}%;
+              --def: ${pet.def /3}%;
+              --mdf: ${pet.mdf /3}%;
+              --spd: ${pet.spd /3}%;
+            ">
+            </div>
+
+            <!-- 六个角的标签 -->
+            <div class="radar-label label-hp">血量</div>
+            <div class="radar-label label-atk">攻击</div>
+            <div class="radar-label label-mat">魔攻</div>
+            <div class="radar-label label-def">防御</div>
+            <div class="radar-label label-mdf">魔抗</div>
+            <div class="radar-label label-spd">速度</div>
+          </div>
+
+          <!-- 下方统一数值条 -->
+          <div class="stat-numbers-bar">
+            <span>血量 ${pet.hp}</span>
+            <span>攻击 ${pet.atk}</span>
+            <span>魔攻 ${pet.mat}</span>
+            <span>防御 ${pet.def}</span>
+            <span>魔抗 ${pet.mdf}</span>
+            <span>速度 ${pet.spd}</span>
+          </div>
         </div>
       </div>
 
@@ -116,5 +132,13 @@ if (pet) {
   document.getElementById("detailArea").innerHTML = "<h2>宠物不存在</h2>";
 }
 </script>
+
+<!-- 版权声明 -->
+<footer class="footer">
+  <p>© 2026 ‘洛克王国宠物图鉴’ Developed by ‘@lionhacker’</p>
+  <p>本项目部分素材与内容引用自 <a href="https://wiki.biligame.com/rocom/" target="_blank" style="color:#666;text-decoration:underline;">B站洛克王国Wiki</a>，其版权归哔哩哔哩游戏wiki所有</p>
+  <p>洛克王国游戏版权归腾讯公司所有 | 仅用于学习交流，非官方站点</p>
+</footer>
+
 </body>
 </html>

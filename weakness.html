@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>属性克制</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- favicon 小图标 -->
+  <link rel="icon" href="leologo/leo_favicon.png" type="image/png">
+  <link rel="shortcut icon" href="leologo/leo_favicon.png" type="image/png">
+</head>
+
+<body>
+  <!-- 顶部导航栏 -->
+  <div class="top-bar">
+    <h1>洛克王国：世界 属性克制</h1>
+    <div class="top-menu">
+      <!-- 返回宠物图鉴按钮 -->
+      <button class="top-menu-btn" onclick="location.href='index.html'">
+        <img src="leologo/pet_icon.png" class="menu-icon">宠物图鉴
+      </button>
+      <!-- 当前页面按钮 -->
+      <button class="top-menu-btn" onclick="location.href='weakness.html'">
+       <img src="leologo/element_icon.png" class="menu-icon">属性克制
+      </button>
+    </div>
+  </div>
+
+  <!-- 页面主体容器 -->
+  <div class="page-container">
+    <!-- 属性克制布局：左侧30% + 右侧70% -->
+    <div class="weakness-layout">
+      
+      <!-- 左侧控制面板 -->
+      <div class="weakness-left">
+        <!-- 进攻/防守模式切换 -->
+        <div class="mode-bar">
+          <button class="mode-btn active" data-mode="atk">进攻方</button>
+          <button class="mode-btn" data-mode="def">防守方</button>
+        </div>
+        <!-- 属性选择区 -->
+        <div>
+          <h4>选择属性</h4>
+          <div id="elemList"></div>
+        </div>
+      </div>
+
+      <!-- 右侧环形展示区 -->
+      <div class="weakness-right">
+        <!-- 克制说明：左上角 -->
+        <div class="legend">
+          <div class="legend-item">
+            <span class="line very"></span>
+            <span>克制</span>
+          </div>
+          <div class="legend-item">
+            <span class="line not"></span>
+            <span>抵抗</span>
+          </div>
+        </div>
+        <!-- 环形属性容器 -->
+        <div class="circle-wrap" id="circleWrap">
+          <!-- 中心显示选中的属性 -->
+          <div class="circle-center" id="centerElem">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 引入配置文件：属性颜色、克制表 -->
+  <script src="data/config.js"></script>
+  <script>
+    // ====================== 全局DOM获取 ======================
+    // 模式切换按钮
+    const modeBtns = document.querySelectorAll('.mode-btn');
+    // 属性列表容器
+    const elemList = document.getElementById('elemList');
+    // 环形布局外层
+    const circleWrap = document.getElementById('circleWrap');
+    // 中心单张图片
+    const centerImg = document.getElementById('centerImg');
+    // 中心整个容器（用于拼接双属性）
+    const centerElem = document.getElementById('centerElem');
+
+    // ====================== 全局状态 ======================
+    // 当前模式：atk进攻 / def防守
+    let currentMode = 'atk';
+    // 进攻方选中的属性（只能一个）
+    let selectedAtk = null;
+    // 防守方选中的属性（最多两个）
+    let selectedDef = [];
+
+    // ====================== 初始化属性按钮 ======================
+    // 取出全部属性，排除“全部”
+    const elements = allElements.filter(e => e !== '全部');
+    elements.forEach(e => {
+      // 创建属性按钮
+      let b = document.createElement('button');
+      b.className = 'filter-btn';
+      b.textContent = e;
+      b.dataset.elem = e;
+
+      // 👇 自动使用属性颜色（和 index 同风格）
+      b.style.backgroundColor = "#2a2a2e";
+      b.style.color = elementColors[e];
+      b.style.border = `2px solid ${elementColors[e]}`;
+      b.style.fontSize = "14px";
+      b.style.margin = "4px";
+
+      elemList.appendChild(b);
+
+      // 点击属性按钮
+      b.onclick = () => {
+        if (currentMode === 'atk') {
+          // ———— 进攻模式：再次点击取消选择 ————
+          if (selectedAtk === e) {
+            // 取消选中
+            selectedAtk = null;
+            selectedDef = [];
+            b.classList.remove('active');
+            showCenter([]);
+            clearArrows();
+          } else {
+            // 正常选中
+            document.querySelectorAll('.filter-btn').forEach(x => x.classList.remove('active'));
+            b.classList.add('active');
+            selectedAtk = e;
+            selectedDef = [];
+            showCenter([e]);
+            drawAtkArrows(e);
+          }
+        } else {
+          // ———— 防守模式 ————
+          if (selectedDef.includes(e)) {
+            // 取消选中
+            selectedDef = selectedDef.filter(x => x !== e);
+            b.classList.remove('active');
+          } else {
+            // 新增选中（最多2个）
+            if (selectedDef.length >= 2) return;
+            selectedDef.push(e);
+            b.classList.add('active');
+          }
+          // 进攻状态清空
+          selectedAtk = null;
+          // 只保留选中的高亮
+          document.querySelectorAll('.filter-btn').forEach(x => {
+            if (!selectedDef.includes(x.dataset.elem)) x.classList.remove('active');
+          });
+          // 中心显示
+          showCenter(selectedDef);
+          // 画防守箭头
+          drawDefArrows(selectedDef);
+        }
+      };
+    });
+
+    // ====================== 进攻/防守模式切换 ======================
+    modeBtns.forEach(b => {
+      b.onclick = () => {
+        // 清空按钮高亮
+        modeBtns.forEach(x => x.classList.remove('active'));
+        // 当前按钮高亮
+        b.classList.add('active');
+        // 切换模式
+        currentMode = b.dataset.mode;
+        // 清空所有选中状态
+        selectedAtk = null;
+        selectedDef = [];
+        document.querySelectorAll('.filter-btn').forEach(x => x.classList.remove('active'));
+        // 清空中心和箭头
+        showCenter([]);
+        clearArrows();
+      };
+    });
+
+    // ====================== 渲染18个属性成环形 ======================
+    function renderCircle() {
+      const wrap = circleWrap.getBoundingClientRect();
+      const size = 460;
+      const r = size * 0.4;   // 圆环半径按比例
+      const cx = size / 2;     // 自动中心 X
+      const cy = size / 2;     // 自动中心 Y
+      const total = elements.length;
+
+    // 只清空属性图标，不清空整个容器（保留中心图标）
+      document.querySelectorAll('.circle-item').forEach(el => el.remove());      
+      circleWrap.style.width = size + 'px';
+      circleWrap.style.height = size + 'px';
+
+      elements.forEach((e, i) => {
+        const ang = (i / total) * Math.PI * 2 - Math.PI / 2;
+        const x = cx + r * Math.cos(ang);
+        const y = cy + r * Math.sin(ang);
+
+        const div = document.createElement('div');
+        div.className = 'circle-item';
+        div.style.left = x + 'px';
+        div.style.top = y + 'px';
+        div.innerHTML = `<img src="public/icons/${e}.png" style="width:100%;height:100%;object-fit:contain">`;
+        circleWrap.appendChild(div);
+      });
+    }
+    // 执行渲染
+    renderCircle();
+
+    // ====================== 中心显示属性（支持双属性拼接） ======================
+    function showCenter(elemList) {
+      // 每次清空中心
+      centerElem.innerHTML = '';
+
+      if (!elemList || elemList.length === 0) {
+        return;
+      }
+
+      // 单个属性：动态创建 img
+      if (elemList.length === 1) {
+        const e = elemList[0];
+        const img = document.createElement('img');
+        img.className = 'center-img';
+        img.src = `public/icons/${e}.png`;
+        img.style.width = '100%';
+        img.style.height = '100%';
+        img.style.objectFit = 'contain';
+        centerElem.appendChild(img);
+        return;
+      }
+
+      // 两个属性
+      if (elemList.length === 2) {
+        let e1 = elemList[0];
+        let e2 = elemList[1];
+        let html = `
+        <div style="width:100%;height:100%;display:flex;">
+            <img src="public/icons/${e1}.png" style="width:50%; height:100%; object-fit:cover; object-position:left;">
+            <img src="public/icons/${e2}.png" style="width:50%; height:100%; object-fit:cover; object-position:right;">
+        </div>
+        `;
+        centerElem.innerHTML = html;
+        return;
+      }
+    }
+
+    // ====================== 绘制进攻箭头（中心 → 外圈） ======================
+    function drawAtkArrows(elem) {
+      // 清空旧箭头
+      clearArrows();
+      if (!elem) return;
+      // 获取当前属性克制数据
+      const data = weaknessTable[elem];
+      // 克制 → 红色箭头
+      data['very-effective'].forEach(t => drawArrowAtk(true, t));
+      // 抵抗 → 绿色箭头
+      data['not-effective'].forEach(t => drawArrowAtk(false, t));
+    }
+
+    // ====================== 绘制防守箭头（外圈属性 → 中心） ======================
+    // 作用：对防守方来说，哪些属性克制它 / 抵抗它
+    function drawDefArrows(defAttrs) {
+    clearArrows();
+    if (!defAttrs || defAttrs.length === 0) return;
+
+      // 遍历所有属性，看它对【防守方】的效果
+      elements.forEach(attackerAttr => {
+        let effect = getEffectToDefense(attackerAttr, defAttrs);
+
+        if (effect === 'very-effective') {
+        // 该属性克制防守方 → 红箭头指向中心
+        drawArrowDef(true, attackerAttr);
+        } else if (effect === 'not-effective') {
+        // 该属性对防守方无效 → 绿箭头指向中心
+        drawArrowDef(false, attackerAttr);
+        }
+        // 普通效果不画箭头
+      });
+    }
+
+    // ====================== 核心：判断攻击属性对防守方的效果 ======================
+    function getEffectToDefense(attackerAttr, defAttrs) {
+      // 单个属性防守
+      if (defAttrs.length === 1) {
+        const def = defAttrs[0];
+        const data = weaknessTable[attackerAttr];
+        if (data['very-effective'].includes(def)) return 'very-effective';
+        if (data['not-effective'].includes(def)) return 'not-effective';
+        return 'normal';
+      }
+
+      // 双属性防守
+      if (defAttrs.length === 2) {
+        const d1 = defAttrs[0];
+        const d2 = defAttrs[1];
+        const data = weaknessTable[attackerAttr];
+
+        const v1 = data['very-effective'].includes(d1);
+        const n1 = data['not-effective'].includes(d1);
+        const v2 = data['very-effective'].includes(d2);
+        const n2 = data['not-effective'].includes(d2);
+
+        // 规则 1 + 2：只要有一个克制，且没有抵抗 → 克制
+        const hasVery = v1 || v2;
+        const hasNot = n1 || n2;
+
+        if (hasVery && !hasNot) {
+          return 'very-effective';
+        }
+
+        // 规则 5 + 6：只要有一个抵抗，且没有克制 → 抵抗
+        if (hasNot && !hasVery) {
+          return 'not-effective';
+        }
+
+        // 规则 3 + 4：其他所有情况 → 正常
+        return 'normal';
+      }
+
+      return 'normal';
+    }
+
+    
+    // ====================== 绘制进攻箭头（中心 → 目标） ======================
+    function drawArrowAtk(isVery, toElem) {
+      const p = getElementPositions();
+      const wrap = circleWrap.getBoundingClientRect();
+      const size = Math.min(wrap.width, wrap.height);
+      const cx = size / 2;
+      const cy = size / 2;
+      const tx = p[toElem]?.x, ty = p[toElem]?.y;
+      if (!tx) return;
+
+      const dx = tx - cx;
+      const dy = ty - cy;
+      const len = Math.hypot(dx, dy);
+      // 👉 往中心移动的距离，数字越大越靠近中心
+      const offset = -20; 
+
+      // 计算新起点：往中心方向挪 offset
+      const startX = tx + dx * offset / len;
+      const startY = ty + dy * offset / len;
+      const ang = Math.atan2(dy, dx) * 180 / Math.PI + 90;
+
+      const arr = document.createElement('div');
+      arr.className = `arrow ${isVery ? 'very-effective' : 'not-effective'}`;
+      arr.style.cssText = `
+        width:2px;
+        height:${len+offset-30}px;  /* 长度同步缩短 */
+        left:${startX}px;               /* 新起点X */
+        top:${startY}px;                /* 新起点Y */
+        transform-origin: top center;
+        transform: rotate(${ang}deg);
+      `;
+
+      const arrowHead = document.createElement('div');
+      arrowHead.style.cssText = `
+        position:absolute;
+        top:0;
+        left:-4px;
+        width:0;
+        height:0;
+        border-left:5px solid transparent;
+        border-right:5px solid transparent;
+        border-bottom:10px solid ${isVery ? '#ff5252' : '#4cd964'};
+      `;
+
+      arr.appendChild(arrowHead);
+      circleWrap.appendChild(arr);
+    }
+
+    // ====================== 绘制防守箭头（目标 → 中心） ======================
+    function drawArrowDef(isVery, fromElem) {
+      const p = getElementPositions();
+      const wrap = circleWrap.getBoundingClientRect();
+      const size = Math.min(wrap.width, wrap.height);
+      const cx = size / 2;
+      const cy = size / 2;
+      const fx = p[fromElem]?.x, fy = p[fromElem]?.y;
+      if (!fx) return;
+
+      const dx = cx - fx;
+      const dy = cy - fy;
+      const len = Math.hypot(dx, dy);
+      // 👉 往中心移动的距离，数字越大越靠近中心
+      const offset = -30; 
+
+      // 计算新起点：往中心方向挪 offset
+      const startX = cx + dx * offset / len;
+      const startY = cy + dy * offset / len;
+      const ang = Math.atan2(dy, dx) * 180 / Math.PI + 90;
+
+      const arr = document.createElement('div');
+      arr.className = `arrow ${isVery ? 'very-effective' : 'not-effective'}`;
+      arr.style.cssText = `
+        width:2px;
+        height:${len+offset-20}px;  /* 长度同步缩短 */
+        left:${startX}px;               /* 新起点X */
+        top:${startY}px;                /* 新起点Y */
+        transform-origin: top center;
+        transform: rotate(${ang}deg);
+      `;
+
+      const arrowHead = document.createElement('div');
+      arrowHead.style.cssText = `
+        position:absolute;
+        top:0;
+        left:-4px;
+        width:0;
+        height:0;
+        border-left:5px solid transparent;
+        border-right:5px solid transparent;
+        border-bottom:10px solid ${isVery ? '#ff5252' : '#4cd964'};
+      `;
+
+      arr.appendChild(arrowHead);
+      circleWrap.appendChild(arr);
+    }
+
+    // ====================== 清空所有箭头 ======================
+    function clearArrows() {
+      document.querySelectorAll('.arrow').forEach(a => a.remove());
+    }
+
+    // ====================== 获取所有属性的环形坐标 ======================
+    function getElementPositions() {
+      const wrap = circleWrap.getBoundingClientRect();
+      const size = 460;
+      const r = size * 0.38;
+      const cx = size / 2;
+      const cy = size / 2;
+      const total = elements.length;
+      const map = {};
+
+      elements.forEach((e, i) => {
+        const ang = (i / total) * Math.PI * 2 - Math.PI / 2;
+        map[e] = {
+          x: cx + r * Math.cos(ang),
+          y: cy + r * Math.sin(ang)
+        };
+      });
+      return map;
+    }
+  </script>
+
+  <!-- 版权声明 -->
+<footer class="footer">
+  <p>© 2026 ‘洛克王国宠物图鉴’ Developed by ‘@lionhacker’</p>
+  <p>本项目部分素材与内容引用自 <a href="https://wiki.biligame.com/rocom/" target="_blank" style="color:#666;text-decoration:underline;">B站洛克王国Wiki</a>，其版权归哔哩哔哩游戏wiki所有</p>
+  <p>洛克王国游戏版权归腾讯公司所有 | 仅用于学习交流，非官方站点</p>
+</footer> 
+
+</body>
+</html>
