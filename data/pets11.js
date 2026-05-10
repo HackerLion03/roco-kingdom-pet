@@ -1,6 +1,5 @@
 const petList11 = [
     {id:101,name:"花衣蝶",element:["虫","草"],
-        avatar:"/public/images/101.png",
         hp:122,atk:67,mat:72,def:84,mdf:94,spd:100,
         trait:{name:"花精灵",desc:"回合开始时，己方队伍获得1次随机奉献。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -36,7 +35,6 @@ const petList11 = [
         ]
     },
     {id:102,name:"绿翼鸟",element:["萌","翼"],
-        avatar:"/public/images/102.png",
         hp:52,atk:68,mat:20,def:56,mdf:53,spd:81,
         trait:{name:"自由飘",desc:"自己每有1层萌化，获得连击数+2。"},
         skills:[{name:"啄击", element:"翼", type:"物攻", cost:0, power:15,
@@ -68,7 +66,6 @@ const petList11 = [
         ]
     },
     {id:103,name:"魔翼鸟",element:["萌","翼"],
-        avatar:"/public/images/103.png",
         hp:70,atk:91,mat:27,def:75,mdf:70,spd:108,
         trait:{name:"自由飘",desc:"自己每有1层萌化，获得连击数+2。"},
         skills:[{name:"啄击", element:"翼", type:"物攻", cost:0, power:15,
@@ -100,7 +97,6 @@ const petList11 = [
         ]
     },
     {id:104,name:"魔眷鸟",element:["萌","翼"],
-        avatar:"/public/images/104.png",
         hp:89,atk:79,mat:79,def:83,mdf:109,spd:60,
         trait:{name:"自由飘",desc:"自己每有1层萌化，获得连击数+2。"},
         skills:[{name:"啄击", element:"翼", type:"物攻", cost:0, power:15,
@@ -132,7 +128,6 @@ const petList11 = [
         ]
     },
     {id:105,name:"阿米亚特",element:["地"],
-        avatar:"/public/images/105.png",
         hp:64,atk:95,mat:47,def:67,mdf:42,spd:45,
         trait:{name:"石头大餐",desc:"能量不足时，消耗5%生命，代替1能量。"},
         skills:[{name:"魔爪", element:"恶", type:"物攻", cost:0, power:30,
@@ -166,7 +161,7 @@ const petList11 = [
         ]
     },
     {id:106,name:"阿米樱",element:["地"],
-        avatar:"/public/images/106.png",
+         
         hp:86,atk:127,mat:63,def:89,mdf:56,spd:60,
         trait:{name:"石头大餐",desc:"能量不足时，消耗5%生命，代替1能量。"},
         skills:[{name:"魔爪", element:"恶", type:"物攻", cost:0, power:30,
@@ -200,7 +195,7 @@ const petList11 = [
         ]
     },
     {id:107,name:"罗隐",element:["地"],
-        avatar:"/public/images/107.png",
+         
         hp:107,atk:159,mat:78,def:112,mdf:70,spd:75,
         trait:{name:"石头大餐",desc:"能量不足时，消耗5%生命，代替1能量。"},
         skills:[{name:"魔爪", element:"恶", type:"物攻", cost:0, power:30,
@@ -234,7 +229,7 @@ const petList11 = [
         ]
     },
     {id:108,name:"风铃鲨",element:["水","翼"],
-        avatar:"/public/images/108.png",
+         
         hp:54,atk:46,mat:46,def:63,mdf:63,spd:75,
         trait:{name:"水翼推进",desc:"己方精灵每使用1次水系技能，自己入场时获得全技能能耗-1。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -266,7 +261,7 @@ const petList11 = [
         ]
     },
     {id:109,name:"蓝蝶鲨",element:["水","翼"],
-        avatar:"/public/images/109.png",
+         
         hp:72,atk:61,mat:61,def:84,mdf:84,spd:100,
         trait:{name:"水翼推进",desc:"己方精灵每使用1次水系技能，自己入场时获得全技能能耗-1。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -298,7 +293,7 @@ const petList11 = [
         ]
     },
     {id:110,name:"彩蝶鲨",element:["水","翼"],
-        avatar:"/public/images/110.png",
+         
         hp:90,atk:77,mat:77,def:105,mdf:105,spd:125,
         trait:{name:"水翼推进",desc:"己方精灵每使用1次水系技能，自己入场时获得全技能能耗-1。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,

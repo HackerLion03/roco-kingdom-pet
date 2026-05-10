@@ -1,6 +1,5 @@
 const petList24 = [
     {id:231,name:"小鹬",element:["翼"],
-        avatar:"/public/images/231.png",
         hp:56,atk:38,mat:38,def:67,mdf:52,spd:69,
         trait:{name:"起飞加速",desc:"本场战斗首次使用的技能获得迅捷。"},
         skills:[{name:"鸣叫", element:"翼", type:"魔攻", cost:0, power:40,
@@ -36,7 +35,6 @@ const petList24 = [
         ]
     },
     {id:232,name:"鄙目鹬",element:["翼"],
-        avatar:"/public/images/232.png",
         hp:75,atk:51,mat:51,def:90,mdf:70,spd:92,
         trait:{name:"起飞加速",desc:"本场战斗首次使用的技能获得迅捷。"},
         skills:[{name:"鸣叫", element:"翼", type:"魔攻", cost:0, power:40,
@@ -72,7 +70,6 @@ const petList24 = [
         ]
     },
     {id:233,name:"高脚鹬",element:["翼"],
-        avatar:"/public/images/233.png",
         hp:94,atk:63,mat:63,def:112,mdf:87,spd:115,
         trait:{name:"起飞加速",desc:"本场战斗首次使用的技能获得迅捷。"},
         skills:[{name:"鸣叫", element:"翼", type:"魔攻", cost:0, power:40,
@@ -108,7 +105,6 @@ const petList24 = [
         ]
     },
     {id:234,name:"脆筒甜甜",element:["冰"],
-        avatar:"/public/images/234.png",
         hp:72,atk:67,mat:72,def:42,mdf:55,spd:60,
         trait:{name:"加个雪球",desc:"使敌方获得冻结时，也会使其获得2层冻结。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -146,7 +142,6 @@ const petList24 = [
         ]
     },
     {id:235,name:"香草甜甜",element:["冰"],
-        avatar:"/public/images/235.png",
         hp:96,atk:90,mat:95,def:56,mdf:74,spd:80,
         trait:{name:"加个雪球",desc:"使敌方获得冻结时，也会使其获得2层冻结。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -184,7 +179,6 @@ const petList24 = [
         ]
     },
     {id:236,name:"圣代甜甜",element:["冰"],
-        avatar:"/public/images/236.png",
         hp:119,atk:112,mat:119,def:70,mdf:92,spd:100,
         trait:{name:"加个雪球",desc:"使敌方获得冻结时，也会使其获得2层冻结。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -222,7 +216,6 @@ const petList24 = [
         ]
     },
     {id:237,name:"刺轮砣",element:["毒","萌"],
-        avatar:"/public/images/237.png",
         hp:100,atk:80,mat:78,def:80,mdf:65,spd:84,
         trait:{name:"耐活王",desc:"敌方受到中毒效果伤害时，自己回复等量生命。"},
         skills:[{name:"毒针", element:"毒", type:"物攻", cost:0, power:20,
@@ -258,7 +251,6 @@ const petList24 = [
         ]
     },
     {id:238,name:"月亮砣",element:["毒","萌"],
-        avatar:"/public/images/238.png",
         hp:125,atk:100,mat:98,def:100,mdf:81,spd:105,
         trait:{name:"耐活王",desc:"敌方受到中毒效果伤害时，自己回复等量生命。"},
         skills:[{name:"毒针", element:"毒", type:"物攻", cost:0, power:20,
@@ -294,7 +286,6 @@ const petList24 = [
         ]
     },
     {id:239,name:"豆丁鱼",element:["水","龙"],
-        avatar:"/public/images/239.png",
         hp:45,atk:70,mat:74,def:67,mdf:70,spd:75,
         trait:{name:"洄游",desc:"每次进入蓄力状态，获得全技能能耗永久-1。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -330,7 +321,6 @@ const petList24 = [
         ]
     },
     {id:240,name:"快鳍鱼",element:["水","龙"],
-        avatar:"/public/images/240.png",
         hp:60,atk:93,mat:99,def:89,mdf:93,spd:100,
         trait:{name:"洄游",desc:"每次进入蓄力状态，获得全技能能耗永久-1。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,

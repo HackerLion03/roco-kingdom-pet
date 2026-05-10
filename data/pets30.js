@@ -1,6 +1,5 @@
 const petList30 = [
     {id:291,name:"厉毒小萝",element:["毒","恶"],
-        avatar:"/public/images/宠物/立绘/291.png",
         hp:67,atk:64,mat:17,def:81,mdf:59,spd:108,
         trait:{name:"侵蚀",desc:"敌方每有1层中毒效果，自己获得连击数+1。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -32,7 +31,6 @@ const petList30 = [
         ]
     },
     {id:292,name:"厉毒修萝",element:["毒","恶"],
-        avatar:"/public/images/宠物/立绘/292.png",
         hp:84,atk:80,mat:21,def:101,mdf:74,spd:135,
         trait:{name:"",desc:""},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -64,7 +62,6 @@ const petList30 = [
         ]
     },
     {id:293,name:"小帕尔",element:["恶"],
-        avatar:"/public/images/宠物/立绘/293.png",
         hp:78,atk:76,mat:34,def:79,mdf:52,spd:60,
         trait:{name:"付给恶魔的代价",desc:"击败敌方精灵时，敌方额外损失1点魔力。被敌方精灵击败时，自己额外损失1点魔力。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -98,7 +95,6 @@ const petList30 = [
         ]
     },
     {id:294,name:"帕尔萨斯",element:["恶"],
-        avatar:"/public/images/宠物/立绘/294.png",
         hp:104,atk:102,mat:46,def:105,mdf:70,spd:80,
         trait:{name:"付给恶魔的代价",desc:"击败敌方精灵时，敌方额外损失1点魔力。被敌方精灵击败时，自己额外损失1点魔力。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -132,7 +128,6 @@ const petList30 = [
         ]
     },
     {id:295,name:"龙息帕尔",element:["恶"],
-        avatar:"/public/images/宠物/立绘/295.png",
         hp:130,atk:127,mat:57,def:131,mdf:87,spd:100,
         trait:{name:"付给恶魔的代价",desc:"击败敌方精灵时，敌方额外损失1点魔力。被敌方精灵击败时，自己额外损失1点魔力。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -166,7 +161,6 @@ const petList30 = [
         ]
     },
     {id:296,name:"毛头小蛛",element:["虫","地"],
-        avatar:"/public/images/宠物/立绘/296.png",
         hp:85,atk:80,mat:27,def:93,mdf:79,spd:88,
         trait:{name:"扫拖一体",desc:"回合结束时驱散敌方1层印记，且驱散后己方队伍获得1次随机奉献。"},
         skills:[{name:"网缚", element:"虫", type:"物攻", cost:2, power:60,
@@ -198,7 +192,6 @@ const petList30 = [
         ]
     },
     {id:297,name:"捕尘长绒",element:["虫","地"],
-        avatar:"/public/images/宠物/立绘/297.png",
         hp:106,atk:100,mat:34,def:116,mdf:99,spd:110,
         trait:{name:"扫拖一体",desc:"回合结束时驱散敌方1层印记，且驱散后己方队伍获得1次随机奉献。"},
         skills:[{name:"网缚", element:"虫", type:"物攻", cost:2, power:60,
@@ -230,7 +223,6 @@ const petList30 = [
         ]
     },
     {id:298,name:"食尘短绒",element:["虫","地"],
-        avatar:"/public/images/宠物/立绘/298.png",
         hp:109,atk:105,mat:37,def:113,mdf:97,spd:115,
         trait:{name:"特殊清洁场景",desc:"回合结束时偷取敌方1层印记。"},
         skills:[{name:"网缚", element:"虫", type:"物攻", cost:2, power:60,
@@ -262,7 +254,6 @@ const petList30 = [
         ]
     },
     {id:299,name:"画精灵",element:["普通"],
-        avatar:"/public/images/宠物/立绘/299.png",
         hp:61,atk:32,mat:78,def:56,mdf:72,spd:72,
         trait:{name:"灰色肖像",desc:"攻击会使敌方已有的减益层数+3。"},
         skills:[{name:"扫尾", element:"普通", type:"物攻", cost:2, power:90,
@@ -290,7 +281,6 @@ const petList30 = [
         ]
     },
     {id:300,name:"画像守护",element:["普通"],
-        avatar:"/public/images/宠物/立绘/300.png",
         hp:81,atk:42,mat:104,def:75,mdf:96,spd:96,
         trait:{name:"灰色肖像",desc:"攻击会使敌方已有的减益层数+3。"},
         skills:[{name:"扫尾", element:"普通", type:"物攻", cost:2, power:90,

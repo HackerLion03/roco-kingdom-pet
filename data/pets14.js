@@ -1,6 +1,6 @@
 const petList14 = [
     {id:131,name:"恶魔狼",element:["恶"],
-        avatar:"/public/images/131.png",
+         
         hp:115,atk:114,mat:45,def:91,mdf:63,spd:120,
         trait:{name:"悲悯",desc:"己方队伍中每有1只力竭的精灵，自己获得双攻+30%"},
         skills:[{name:"蝙蝠", element:"恶", type:"物攻", cost:2, power:65,
@@ -32,7 +32,7 @@ const petList14 = [
         ]
     },
     {id:132,name:"小电企鹅",element:["冰","电"],
-        avatar:"/public/images/132.png",
+         
         hp:75,atk:45,mat:101,def:59,mdf:87,spd:100,
         trait:{name:"超负荷",desc:"攻击技能获得迸发：敌方获得全技能能耗+1。"},
         skills:[{name:"风吹雪", element:"冰", type:"魔攻", cost:0, power:30,
@@ -64,7 +64,6 @@ const petList14 = [
         ]
     },
     {id:133,name:"电企鹅",element:["冰","电"],
-        avatar:"/public/images/133.png",
         hp:94,atk:56,mat:126,def:73,mdf:109,spd:125,
         trait:{name:"超负荷",desc:"攻击技能获得迸发：敌方获得全技能能耗+1。"},
         skills:[{name:"风吹雪", element:"冰", type:"魔攻", cost:0, power:30,
@@ -96,7 +95,6 @@ const petList14 = [
         ]
     },
     {id:134,name:"雪豆丁",element:["冰"],
-        avatar:"/public/images/134.png",
         hp:97,atk:104,mat:47,def:83,mdf:62,spd:36,
         trait:{name:"打雪仗",desc:"初始能量为0，入场前己方精灵每放1次冰系技能，回复3能量。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -128,7 +126,6 @@ const petList14 = [
         ]
     },
     {id:135,name:"雪蛮人",element:["冰"],
-        avatar:"/public/images/135.png",
         hp:130,atk:139,mat:63,def:111,mdf:83,spd:48,
         trait:{name:"打雪仗",desc:"初始能量为0，入场前己方精灵每放1次冰系技能，回复3能量。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -160,7 +157,6 @@ const petList14 = [
         ]
     },
     {id:136,name:"雪巨人",element:["冰"],
-        avatar:"/public/images/136.png",
         hp:162,atk:174,mat:79,def:139,mdf:104,spd:60,
         trait:{name:"打雪仗",desc:"初始能量为0，入场前己方精灵每放1次冰系技能，回复3能量。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -192,7 +188,6 @@ const petList14 = [
         ]
     },
     {id:137,name:"呼呼猪",element:["冰","地"],
-        avatar:"/public/images/137.png",
         hp:98,atk:95,mat:33,def:88,mdf:81,spd:68,
         trait:{name:"冻土",desc:"每携带1个冰系技能进入战斗，地系技能威力+10%。"},
         skills:[{name:"丢冰块", element:"冰", type:"物攻", cost:3, power:90,
@@ -226,7 +221,6 @@ const petList14 = [
         ]
     },
     {id:138,name:"獠牙猪",element:["冰","地"],
-        avatar:"/public/images/138.png",
         hp:123,atk:119,mat:41,def:110,mdf:101,spd:85,
         trait:{name:"冻土",desc:"每携带1个冰系技能进入战斗，地系技能威力+10%。"},
         skills:[{name:"丢冰块", element:"冰", type:"物攻", cost:3, power:90,
@@ -260,7 +254,6 @@ const petList14 = [
         ]
     },
     {id:139,name:"雪娃娃",element:["冰"],
-        avatar:"/public/images/139.png",
         hp:56,atk:67,mat:67,def:63,mdf:63,spd:69,
         trait:{name:"冰封",desc:"在场时，敌方全技能能耗+1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -298,7 +291,6 @@ const petList14 = [
         ]
     },
     {id:140,name:"冰封怨灵",element:["冰"],
-        avatar:"/public/images/140.png",
         hp:75,atk:90,mat:90,def:84,mdf:84,spd:92,
         trait:{name:"冰封",desc:"在场时，敌方全技能能耗+1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,

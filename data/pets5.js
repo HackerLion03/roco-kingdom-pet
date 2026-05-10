@@ -1,6 +1,5 @@
 const petList5 = [
     {id:41,name:"奇丽草",element:["草"],
-        avatar:"/public/images/41.png",
         hp:67,atk:69,mat:69,def:73,mdf:57,spd:48,
         trait:{name:"养分重吸收",desc:"回合结束时，回复3能量。"},
         skills:[{name:"能量炮", element:"普通", type:"魔攻", cost:3, power:50,
@@ -38,7 +37,6 @@ const petList5 = [
         ]
     },
     {id:42,name:"奇丽叶",element:["草"],
-        avatar:"/public/images/42.png",
         hp:90,atk:92,mat:92,def:97,mdf:76,spd:64,
         trait:{name:"养分重吸收",desc:"回合结束时，回复3能量。"},
         skills:[{name:"能量炮", element:"普通", type:"魔攻", cost:3, power:50,
@@ -76,7 +74,6 @@ const petList5 = [
         ]
     },
     {id:43,name:"奇丽花",element:["草"],
-        avatar:"/public/images/43.png",
         hp:112,atk:115,mat:115,def:121,mdf:95,spd:80,
         trait:{name:"养分重吸收",desc:"回合结束时，回复3能量。"},
         skills:[{name:"能量炮", element:"普通", type:"魔攻", cost:3, power:50,
@@ -114,7 +111,6 @@ const petList5 = [
         ]
     },
     {id:44,name:"丢丢",element:["草"],
-        avatar:"/public/images/44.png",
         hp:44,atk:45,mat:12,def:49,mdf:40,spd:78,
         trait:{name:"诈死",desc:"自己力竭时，少损失1点魔力。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -146,7 +142,6 @@ const petList5 = [
         ]
     },
     {id:45,name:"卡卡虫",element:["草"],
-        avatar:"/public/images/45.png",
         hp:59,atk:60,mat:16,def:65,mdf:53,spd:104,
         trait:{name:"诈死",desc:"自己力竭时，少损失1点魔力。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -178,7 +173,6 @@ const petList5 = [
         ]
     },
     {id:46,name:"卡瓦重",element:["草"],
-        avatar:"/public/images/46.png",
         hp:74,atk:75,mat:20,def:81,mdf:67,spd:130,
         trait:{name:"诈死",desc:"自己力竭时，少损失1点魔力。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -210,7 +204,6 @@ const petList5 = [
         ]
     },
     {id:47,name:"护主犬",element:["火"],
-        avatar:"/public/images/47.png",
         hp:68,atk:103,mat:37,def:81,mdf:66,spd:96,
         trait:{name:"专注力",desc:"入场首回合，获得物攻+100%。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -242,7 +235,6 @@ const petList5 = [
         ]
     },
     {id:48,name:"音速犬",element:["火"],
-        avatar:"/public/images/48.png",
         hp:85,atk:128,mat:46,def:101,mdf:82,spd:120,
         trait:{name:"专注力",desc:"入场首回合，获得物攻+100%。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -274,7 +266,6 @@ const petList5 = [
         ]
     },
     {id:49,name:"绿儿松鼠",element:["普通"],
-        avatar:"/public/images/49.png",
         hp:69,atk:50,mat:47,def:67,mdf:52,spd:48,
         trait:{name:"囤积",desc:"每有1能量，获得双防+10%。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -310,7 +301,6 @@ const petList5 = [
         ]
     },
     {id:50,name:"抱枕松鼠",element:["普通"],
-        avatar:"/public/images/50.png",
         hp:92,atk:67,mat:63,def:89,mdf:70,spd:64,
         trait:{name:"囤积",desc:"每有1能量，获得双防+10%。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -342,7 +332,7 @@ const petList5 = [
             {name:"突袭", element:"普通", type:"魔攻", cost:2, power:50,
             desc:"造成魔伤，应对状态：本次技能威力变为3倍。"},
             {name:"无畏之心", element:"普通", type:"防御", cost:5, power:0,
-            desc:"减伤100%，应对攻击：减免的伤害变为回复自己生命，且本技能能耗永久+2。"},
+            desc:"减伤100%，应对攻击：减免的伤害变为回复自己生命，且本技能能耗永久+2。"},  
         ]
     },
 ]

@@ -1,6 +1,5 @@
 const petList22 = [
     {id:211,name:"迷迷箱怪",element:["机械","幻"],
-        avatar:"/public/images/211.png",
         hp:138,atk:129,mat:129,def:148,mdf:148,spd:80,
         trait:{name:"虚假宝箱",desc:"自己力竭时，敌方获得攻防+20%。"},
         skills:[{name:"杠杆置换", element:"机械", type:"状态", cost:0, power:0,
@@ -38,7 +37,6 @@ const petList22 = [
         ]
     },
     {id:212,name:"古钟蛇",element:["萌","毒"],
-        avatar:"/public/images/212.png",
         hp:85,atk:63,mat:63,def:64,mdf:91,spd:80,
         trait:{name:"拨浪鼓",desc:"己方精灵每使用1次状态技能，自己入场时毒系和萌系技能威力+10。"},
         skills:[{name:"魅惑", element:"萌", type:"魔攻", cost:1, power:60,
@@ -76,7 +74,6 @@ const petList22 = [
     ]
     },
     {id:213,name:"寒音蛇",element:["萌","毒"],
-        avatar:"/public/images/213.png",
         hp:106,atk:79,mat:79,def:80,mdf:114,spd:100,
         trait:{name:"拨浪鼓",desc:"己方精灵每使用1次状态技能，自己入场时毒系和萌系技能威力+10。"},
         skills:[{name:"魅惑", element:"萌", type:"魔攻", cost:1, power:60,
@@ -114,7 +111,6 @@ const petList22 = [
         ]
     },
     {id:214,name:"矮脚爬爬",element:["虫"],
-        avatar:"/public/images/214.png",
         hp:80,atk:117,mat:110,def:74,mdf:59,spd:92,
         trait:{name:"振奋虫心",desc:"主动击败敌方后，己方队伍获得5次随机奉献。"},
         skills:[{name:"蝙蝠", element:"恶", type:"物攻", cost:2, power:65,
@@ -148,7 +144,6 @@ const petList22 = [
         ]
     },
     {id:215,name:"恶魔红钻",element:["虫","恶"],
-        avatar:"/public/images/215.png",
         hp:100,atk:147,mat:137,def:93,mdf:74,spd:115,
         trait:{name:"振奋虫心",desc:"主动击败敌方后，己方队伍获得5次随机奉献。"},
         skills:[{name:"蝙蝠", element:"恶", type:"物攻", cost:2, power:65,
@@ -182,7 +177,6 @@ const petList22 = [
         ]
     },
     {id:216,name:"火尾瓦特",element:["火"],
-        avatar:"/public/images/216.png",
         hp:63,atk:70,mat:29,def:81,mdf:52,spd:39,
         trait:{name:"蒸汽膨胀",desc:"己方精灵每使用1次火系技能，自己入场时获得全技能威力+10。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -214,7 +208,6 @@ const petList22 = [
         ]
     },
     {id:217,name:"火尾战士",element:["火"],
-        avatar:"/public/images/217.png",
         hp:84,atk:94,mat:39,def:108,mdf:74,spd:52,
         trait:{name:"蒸汽膨胀",desc:"己方精灵每使用1次火系技能，自己入场时获得全技能威力+10。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -246,7 +239,6 @@ const petList22 = [
         ]
     },
     {id:218,name:"烈火守护",element:["火"],
-        avatar:"/public/images/218.png",
         hp:105,atk:117,mat:49,def:135,mdf:93,spd:65,
         trait:{name:"蒸汽膨胀",desc:"己方精灵每使用1次火系技能，自己入场时获得全技能威力+10。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -278,7 +270,6 @@ const petList22 = [
         ]
     },
     {id:219,name:"里拉鳐",element:["水"],
-        avatar:"/public/images/219.png",
         hp:118,atk:82,mat:89,def:103,mdf:147,spd:105,
         trait:{name:"吟游之弦",desc:"赋予的印记不会替换其他印记，而是同时生效。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -314,7 +305,6 @@ const petList22 = [
         ]
     },
     {id:220,name:"海枝枝",element:["水","幽"],
-        avatar:"/public/images/220.png",
         hp:78,atk:58,mat:148,def:96,mdf:120,spd:110,
         trait:{name:"珊瑚骨",desc:"敌方精灵离场时，自己获得全技能能耗-3。"},
         skills:[{name:"拍击", element:"普通", type:"魔攻", cost:1, power:65,

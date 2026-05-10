@@ -1,6 +1,5 @@
 const petList2 = [
     {id:11,name:"鸭吉吉",element:"普通",
-        avatar:"/public/images/11.png",
         hp:136,atk:95,mat:35,def:55,mdf:45,spd:105,
         trait:{name:"挺起胸膛",desc:"携带的能耗为1的技能，威力+50%。"},
         skills:[{name:"猛烈撞击", element:"普通", type:"物攻", cost:1, power:60,
@@ -32,7 +31,6 @@ const petList2 = [
         ]
     },
     {id:12,name:"板板壳",element:"水",
-        avatar:"/public/images/12.png",
         hp:67,atk:28,mat:72,def:64,mdf:81,spd:45,
         trait:{name:"缩壳",desc:"携带的防御技能能耗-2。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -64,7 +62,6 @@ const petList2 = [
         ]
     },
     {id:13,name:"咔咔壳",element:"水",
-        avatar:"/public/images/13.png",
         hp:90,atk:37,mat:96,def:85,mdf:107,spd:60,
         trait:{name:"缩壳",desc:"携带的防御技能能耗-2。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -96,7 +93,6 @@ const petList2 = [
         ]
     },
     {id:14,name:"水泡壳",element:"水",
-        avatar:"/public/images/14.png",
         hp:112,atk:46,mat:120,def:107,mdf:134,spd:75,
         trait:{name:"缩壳",desc:"携带的防御技能能耗-2。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -128,7 +124,6 @@ const petList2 = [
         ]
     },
     {id:15,name:"锥尾羊",element:"幽",
-        avatar:"/public/images/15.png",
         hp:67,atk:66,mat:29,def:72,mdf:49,spd:66,
         trait:{name:"碰瓷",desc:"自己使用恶系技能后，敌方失去2能量。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -160,7 +155,6 @@ const petList2 = [
         ]
     },
     {id:16,name:"铃兰羊",element:"幽",
-        avatar:"/public/images/16.png",
         hp:89,atk:89,mat:39,def:96,mdf:65,spd:88,
         trait:{name:"碰瓷",desc:"自己使用恶系技能后，敌方失去2能量。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -192,7 +186,6 @@ const petList2 = [
         ]
     },
     {id:17,name:"花影羚羊",element:["幽","恶"],
-        avatar:"/public/images/17.png",
         hp:112,atk:111,mat:48,def:120,mdf:81,spd:110,
         trait:{name:"碰瓷",desc:"自己使用恶系技能后，敌方失去2能量。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -224,7 +217,6 @@ const petList2 = [
         ]
     },
     {id:18,name:"雪绒鸟",element:"翼",
-        avatar:"/public/images/18.png",
         hp:54,atk:77,mat:33,def:65,mdf:44,spd:69,
         trait:{name:"顺风",desc:"若先于敌方攻击，本次技能威力+50%。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:0, power:0,
@@ -256,7 +248,6 @@ const petList2 = [
         ]
     },
     {id:19,name:"冬羽雀",element:"翼",
-        avatar:"/public/images/19.png",
         hp:72,atk:103,mat:44,def:86,mdf:59,spd:92,
         trait:{name:"顺风",desc:"若先于敌方攻击，本次技能威力+50%。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:0, power:0,
@@ -288,7 +279,6 @@ const petList2 = [
         ]
     },
     {id:20,name:"岚鸟",element:"翼",
-        avatar:"/public/images/20.png",
         hp:90,atk:128,mat:55,def:108,mdf:74,spd:115,
         trait:{name:"顺风",desc:"若先于敌方攻击，本次技能威力+50%。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:0, power:0,

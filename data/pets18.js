@@ -1,6 +1,5 @@
 const petList18 = [
     {id:171,name:"波波螺",element:["地","水"],
-        avatar:"/public/images/171.png",
         hp:67,atk:59,mat:59,def:87,mdf:66,spd:42,
         trait:{name:"消波块",desc:"每携带1个水系技能进入战斗，地系技能能耗-1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -36,7 +35,6 @@ const petList18 = [
         ]
     },
     {id:172,name:"消波螺",element:["地","水"],
-        avatar:"/public/images/172.png",
         hp:89,atk:78,mat:78,def:116,mdf:88,spd:56,
         trait:{name:"消波块",desc:"每携带1个水系技能进入战斗，地系技能能耗-1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -72,7 +70,6 @@ const petList18 = [
         ]
     },
     {id:173,name:"嗜波螺",element:["地","水"],
-        avatar:"/public/images/173.png",
         hp:112,atk:98,mat:98,def:146,mdf:110,spd:70,
         trait:{name:"消波块",desc:"每携带1个水系技能进入战斗，地系技能能耗-1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -108,7 +105,6 @@ const petList18 = [
         ]
     },
     {id:174,name:"菇菇丁",element:["地","草"],
-        avatar:"/public/images/174.png",
         hp:89,atk:61,mat:57,def:70,mdf:57,spd:42,
         trait:{name:"多人宿舍",desc:"自己的能量可以超过能量上限。"},
         skills:[{name:"热砂", element:"地", type:"魔攻", cost:2, power:80,
@@ -144,7 +140,6 @@ const petList18 = [
         ]
     },
     {id:175,name:"多菇丁",element:["地","草"],
-        avatar:"/public/images/175.png",
         hp:119,atk:81,mat:76,def:93,mdf:76,spd:56,
         trait:{name:"多人宿舍",desc:"自己的能量可以超过能量上限。"},
         skills:[{name:"热砂", element:"地", type:"魔攻", cost:2, power:80,
@@ -180,7 +175,6 @@ const petList18 = [
         ]
     },
     {id:176,name:"九幽菇",element:["地","草"],
-        avatar:"/public/images/176.png",
         hp:149,atk:102,mat:95,def:116,mdf:95,spd:70,
         trait:{name:"多人宿舍",desc:"自己的能量可以超过能量上限。"},
         skills:[{name:"热砂", element:"地", type:"魔攻", cost:2, power:80,
@@ -216,7 +210,6 @@ const petList18 = [
         ]
     },
     {id:177,name:"斑斑",element:["翼"],
-        avatar:"/public/images/177.png",
         hp:71,atk:90,mat:90,def:71,mdf:80,spd:92,
         trait:{name:"逐魂鸟",desc:"能耗小于等于1的攻击技能，无法对自己造成伤害。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -252,7 +245,6 @@ const petList18 = [
         ]
     },
     {id:178,name:"斑枭",element:["翼"],
-        avatar:"/public/images/178.png",
         hp:89,atk:112,mat:112,def:89,mdf:100,spd:115,
         trait:{name:"",desc:""},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -288,7 +280,6 @@ const petList18 = [
         ]
     },
     {id:179,name:"草头鸭",element:["草"],
-        avatar:"/public/images/179.png",
         hp:92,atk:79,mat:24,def:66,mdf:50,spd:92,
         trait:{name:"得寸进尺",desc:"天气为雨天，或处于其他水系环境中时，获得双攻+100%。"},
         skills:[{name:"刺藤", element:"草", type:"物攻", cost:3, power:45,
@@ -322,7 +313,6 @@ const petList18 = [
         ]
     },
     {id:180,name:"卷毛鸭",element:["草","武"],
-        avatar:"/public/images/180.png",
         hp:116,atk:98,mat:29,def:83,mdf:63,spd:115,
         trait:{name:"得寸进尺",desc:"天气为雨天，或处于其他水系环境中时，获得双攻+100%。"},
         skills:[{name:"刺藤", element:"草", type:"物攻", cost:3, power:45,

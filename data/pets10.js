@@ -1,6 +1,5 @@
 const petList10 = [
     {id:91,name:"黑羽夫人",element:["翼","恶"],
-        avatar:"/public/images/91.png",
         hp:132,atk:93,mat:87,def:130,mdf:90,spd:120,
         trait:{name:"贪婪",desc:"敌方精灵离场后，其增益和减益会被更换入场的精灵继承。"},
         skills:[{name:"鸣叫", element:"翼", type:"魔攻", cost:0, power:40,
@@ -38,7 +37,6 @@ const petList10 = [
         ]
     },
     {id:92,name:"锤头鹳",element:["翼","水"],
-        avatar:"/public/images/92.png",
         hp:111,atk:67,mat:65,def:91,mdf:72,spd:105,
         trait:{name:"快锤",desc:"携带的能耗小于3的技能，获得迅捷。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -74,7 +72,6 @@ const petList10 = [
         ]
     },
     {id:93,name:"绿草精灵",element:["草","幻"],
-        avatar:"/public/images/93.png",
         hp:79,atk:35,mat:89,def:87,mdf:111,spd:72,
         trait:{name:"木桶戏法",desc:"离场后，更换入场的精灵以木桶状态登场。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -106,7 +103,6 @@ const petList10 = [
         ]
     },
     {id:94,name:"魔草巫灵",element:["草","幻"],
-        avatar:"/public/images/94.png",
         hp:99,atk:43,mat:112,def:109,mdf:139,spd:90,
         trait:{name:"木桶戏法",desc:"离场后，更换入场的精灵以木桶状态登场。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -138,7 +134,6 @@ const petList10 = [
         ]
     },
     {id:95,name:"记忆石",element:["地"],
-        avatar:"/public/images/95.png",
         hp:112,atk:108,mat:97,def:141,mdf:79,spd:70,
         trait:{name:"不移",desc:"携带的无额外效果的攻击技能，威力+30%。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -174,7 +169,6 @@ const petList10 = [
         ]
     },
     {id:96,name:"咔咔羽毛",element:["翼","普通"],
-        avatar:"/public/images/96.png",
         hp:58,atk:68,mat:66,def:61,mdf:53,spd:72,
         trait:{name:"咔咔冲刺",desc:"若先于敌方行动，行动后获得连击数+1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -210,7 +204,6 @@ const petList10 = [
         ]
     },
     {id:97,name:"咔咔雀",element:["翼","普通"],
-        avatar:"/public/images/97.png",
         hp:78,atk:91,mat:88,def:81,mdf:71,spd:96,
         trait:{name:"咔咔冲刺",desc:"若先于敌方行动，行动后获得连击数+1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -246,7 +239,6 @@ const petList10 = [
         ]
     },
     {id:98,name:"咔咔鸟",element:["翼","普通"],
-        avatar:"/public/images/98.png",
         hp:97,atk:114,mat:110,def:101,mdf:89,spd:120,
         trait:{name:"咔咔冲刺",desc:"若先于敌方行动，行动后获得连击数+1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -282,7 +274,6 @@ const petList10 = [
         ]
     },
     {id:99,name:"小草虫",element:["虫","草"],
-        avatar:"/public/images/99.png",
         hp:73,atk:40,mat:43,def:50,mdf:57,spd:60,
         trait:{name:"花精灵",desc:"回合结束时，己方队伍获得1次随机奉献。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -318,7 +309,6 @@ const petList10 = [
         ]
     },
     {id:100,name:"草衣虫",element:["虫","草"],
-        avatar:"/public/images/100.png",
         hp:97,atk:53,mat:57,def:67,mdf:75,spd:80,
         trait:{name:"花精灵",desc:"回合开始时，己方队伍获得1次随机奉献。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,

@@ -1,6 +1,5 @@
 const petList19 = [
     {id:181,name:"海报战士",element:["武","水"],
-        avatar:"/public/images/181.png",
         hp:72,atk:91,mat:87,def:89,mdf:62,spd:80,
         trait:{name:"身经百炼",desc:"己方精灵每应对1次，自己入场时水系和武系技能威力+20%。"},
         skills:[{name:"气波", element:"武", type:"魔攻", cost:0, power:40,
@@ -36,7 +35,6 @@ const petList19 = [
         ]
     },
     {id:182,name:"海豹船长",element:["武","水"],
-        avatar:"/public/images/182.png",
         hp:90,atk:113,mat:109,def:111,mdf:77,spd:100,
         trait:{name:"身经百炼",desc:"己方精灵每应对1次，自己入场时水系和武系技能威力+20%。"},
         skills:[{name:"气波", element:"武", type:"魔攻", cost:0, power:40,
@@ -72,7 +70,6 @@ const petList19 = [
         ]
     },
     {id:183,name:"号儿鱼",element:["水"],
-        avatar:"/public/images/183.png",
         hp:109,atk:27,mat:76,def:76,mdf:88,spd:84,
         trait:{name:"泛音列",desc:"使用状态技能后，敌方获得【聒噪】技能的效果，持续3回合。"},
         skills:[{name:"激怒", element:"普通", type:"状态", cost:3, power:0,
@@ -104,7 +101,6 @@ const petList19 = [
         ]
     },
     {id:184,name:"圆号鱼",element:["水"],
-        avatar:"/public/images/184.png",
         hp:136,atk:34,mat:95,def:95,mdf:110,spd:105,
         trait:{name:"泛音列",desc:"使用状态技能后，敌方获得【聒噪】技能的效果，持续3回合。"},
         skills:[{name:"激怒", element:"普通", type:"状态", cost:3, power:0,
@@ -136,7 +132,6 @@ const petList19 = [
         ]
     },
     {id:185,name:"甜田螺",element:["水","萌"],
-        avatar:"/public/images/185.png",
         hp:68,atk:61,mat:64,def:49,mdf:74,spd:54,
         trait:{name:"守护者",desc:"己方其他精灵每有1层萌化，自己入场时全技能能耗-1。"},
         skills:[{name:"泡沫幻影", element:"水", type:"防御", cost:2, power:0,
@@ -172,7 +167,6 @@ const petList19 = [
         ]
     },
     {id:186,name:"壳乙螺",element:["水","萌"],
-        avatar:"/public/images/186.png",
         hp:91,atk:81,mat:86,def:66,mdf:99,spd:72,
         trait:{name:"守护者",desc:"己方其他精灵每有1层萌化，自己入场时全技能能耗-1。"},
         skills:[{name:"泡沫幻影", element:"水", type:"防御", cost:2, power:0,
@@ -208,7 +202,6 @@ const petList19 = [
         ]
     },
     {id:187,name:"卡洛儿",element:["水","萌"],
-        avatar:"/public/images/187.png",
         hp:114,atk:102,mat:107,def:82,mdf:124,spd:90,
         trait:{name:"守护者",desc:"己方其他精灵每有1层萌化，自己入场时全技能能耗-1。"},
         skills:[{name:"泡沫幻影", element:"水", type:"防御", cost:2, power:0,
@@ -244,7 +237,6 @@ const petList19 = [
         ]
     },
     {id:188,name:"棋棋",element:["武","地"],
-        avatar:"/public/images/188.png",
         hp:72,atk:100,mat:36,def:70,mdf:56,spd:100,
         trait:{name:"腾挪",desc:"攻击技能应对1次后，回满状态，变为棋绮后。"},
         skills:[{name:"寸拳", element:"武", type:"物攻", cost:0, power:30,
@@ -270,7 +262,6 @@ const petList19 = [
         ]
     },
     {id:189,name:"棋骑士",element:["武","地"],
-        avatar:"/public/images/189.png",
         hp:90,atk:126,mat:45,def:88,mdf:69,spd:125,
         trait:{name:"腾挪",desc:"攻击技能应对1次后，回满状态，变为棋绮后。"},
         skills:[{name:"寸拳", element:"武", type:"物攻", cost:0, power:30,
@@ -312,7 +303,6 @@ const petList19 = [
         ]
     },
     {id:190,name:"棋齐垒",element:["武","地"],
-        avatar:"/public/images/190.png",
         hp:89,atk:94,mat:38,def:116,mdf:77,spd:75,
         trait:{name:"保卫",desc:"防御技能应对2次后，回满状态，变为棋绮后。"},
         skills:[{name:"寸拳", element:"武", type:"物攻", cost:0, power:30,

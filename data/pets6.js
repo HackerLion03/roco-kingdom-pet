@@ -1,6 +1,5 @@
 const petList6 = [
     {id:51,name:"蹦床松鼠",element:["普通"],
-        avatar:"/public/images/51.png",
         hp:114,atk:84,mat:79,def:111,mdf:87,spd:80,
         trait:{name:"囤积",desc:"每有1能量，获得双防+10%。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -36,7 +35,6 @@ const petList6 = [
         ]
     },
     {id:52,name:"嘟嘟煲",element:["毒"],
-        avatar:"/public/images/52.png",
         hp:110,atk:29,mat:82,def:71,mdf:83,spd:84,
         trait:{name:"复方汤剂",desc:"回合结束时，中毒效果触发次数+1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -68,7 +66,6 @@ const petList6 = [
         ]
     },
     {id:53,name:"嘟嘟锅",element:["毒"],
-        avatar:"/public/images/53.png",
         hp:137,atk:36,mat:102,def:89,mdf:104,spd:105,
         trait:{name:"复方汤剂",desc:"回合结束时，中毒效果触发次数+1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -100,7 +97,6 @@ const petList6 = [
         ]
     },
     {id:54,name:"小灵面",element:["幽"],
-        avatar:"/public/images/54.png",
         hp:55,atk:30,mat:72,def:59,mdf:81,spd:69,
         trait:{name:"惊吓",desc:"能量等于0的精灵，无法对自己造成伤害。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -132,7 +128,6 @@ const petList6 = [
         ]
     },
     {id:55,name:"暗影灵面",element:["幽"],
-        avatar:"/public/images/55.png",
         hp:74,atk:40,mat:96,def:78,mdf:108,spd:92,
         trait:{name:"惊吓",desc:"能量等于0的精灵，无法对自己造成伤害。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -164,7 +159,6 @@ const petList6 = [
         ]
     },
     {id:56,name:"幽冥眼",element:["幽"],
-        avatar:"/public/images/56.png",
         hp:92,atk:50,mat:120,def:98,mdf:135,spd:115,
         trait:{name:"惊吓",desc:"能量等于0的精灵，无法对自己造成伤害。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -196,7 +190,6 @@ const petList6 = [
         ]
     },
     {id:57,name:"梦游",element:["幽"],
-        avatar:"/public/images/57.png",
         hp:90,atk:40,mat:106,def:60,mdf:74,spd:92,
         trait:{name:"做噩梦",desc:"敌方精灵离场后，更换入场的精灵失去3能量。"},
         skills:[{name:"拍击", element:"普通", type:"魔攻", cost:1, power:65,
@@ -228,7 +221,6 @@ const petList6 = [
         ]
     },
     {id:58,name:"梦悠悠",element:["幽"],
-        avatar:"/public/images/58.png",
         hp:89,atk:79,mat:79,def:83,mdf:109,spd:60,
         trait:{name:"做噩梦",desc:"敌方精灵离场后，更换入场的精灵失去3能量。"},
         skills:[{name:"拍击", element:"普通", type:"魔攻", cost:1, power:65,
@@ -260,7 +252,6 @@ const petList6 = [
         ]
     },
     {id:59,name:"兽花蕾",element:["光","草"],
-        avatar:"/public/images/59.png",
         hp:70,atk:79,mat:82,def:70,mdf:97,spd:115,
         trait:{name:"稀兽花宝",desc:"根据自己的血脉，入场时获得不同效果。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -298,7 +289,6 @@ const petList6 = [
         ]
     },
     {id:60,name:"伏地兽",element:["普通"],
-        avatar:"/public/images/60.png",
         hp:89,atk:79,mat:79,def:83,mdf:109,spd:60,
         trait:{name:"壮胆",desc:"队伍存在虫系精灵，自己获得双攻+50%。"},
         skills:[{name:"抓挠", element:"普通", type:"物攻", cost:0, power:35,

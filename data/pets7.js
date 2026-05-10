@@ -1,6 +1,5 @@
 const petList7 = [
     {id:61,name:"贪食鼹",element:["普通"],
-        avatar:"/public/images/61.png",
         hp:126,atk:74,mat:33,def:94,mdf:54,spd:68,
         trait:{name:"壮胆",desc:"队伍存在虫系精灵，自己获得双攻+50%。"},
         skills:[{name:"抓挠", element:"普通", type:"物攻", cost:0, power:35,
@@ -32,7 +31,6 @@ const petList7 = [
         ]
     },
     {id:62,name:"巨噬针鼹",element:["普通"],
-        avatar:"/public/images/62.png",
         hp:158,atk:93,mat:41,def:117,mdf:68,spd:85,
         trait:{name:"壮胆",desc:"队伍存在虫系精灵，自己获得双攻+50%。"},
         skills:[{name:"抓挠", element:"普通", type:"物攻", cost:0, power:35,
@@ -64,7 +62,6 @@ const petList7 = [
         ]
     },
     {id:63,name:"蹦蹦种子",element:["草","毒"],
-        avatar:"/public/images/63.png",
         hp:60,atk:64,mat:66,def:44,mdf:63,spd:51,
         trait:{name:"生物碱",desc:"使用草系技能时，敌方获得2层中毒。"},
         skills:[{name:"根吸收", element:"草", type:"状态", cost:2, power:0,
@@ -102,7 +99,6 @@ const petList7 = [
         ]
     },
     {id:64,name:"蹦蹦草",element:["草","毒"],
-        avatar:"/public/images/64.png",
         hp:80,atk:85,mat:88,def:59,mdf:84,spd:68,
         trait:{name:"生物碱",desc:"使用草系技能时，敌方获得2层中毒。"},
         skills:[{name:"根吸收", element:"草", type:"状态", cost:2, power:0,
@@ -140,7 +136,6 @@ const petList7 = [
         ]
     },
     {id:65,name:"蹦蹦花",element:["草","毒"],
-        avatar:"/public/images/65.png",
         hp:100,atk:107,mat:110,def:73,mdf:105,spd:85,
         trait:{name:"生物碱",desc:"使用草系技能时，敌方获得2层中毒。"},
         skills:[{name:"根吸收", element:"草", type:"状态", cost:2, power:0,
@@ -178,7 +173,6 @@ const petList7 = [
         ]
     },
     {id:66,name:"电咩咩",element:["电"],
-        avatar:"/public/images/66.png",
         hp:47,atk:49,mat:49,def:55,mdf:57,spd:75,
         trait:{name:"快充",desc:"离场时回复10能量"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -210,7 +204,6 @@ const petList7 = [
         ]
     },
     {id:67,name:"粉咩咩",element:["电"],
-        avatar:"/public/images/67.png",
         hp:62,atk:66,mat:66,def:73,mdf:76,spd:100,
         trait:{name:"快充",desc:"离场时回复10能量"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -242,7 +235,6 @@ const petList7 = [
         ]
     },
     {id:68,name:"电球咩咩",element:["电"],
-        avatar:"/public/images/68.png",
         hp:78,atk:82,mat:82,def:91,mdf:95,spd:125,
         trait:{name:"快充",desc:"离场时回复10能量"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -274,7 +266,6 @@ const petList7 = [
         ]
     },
     {id:69,name:"蒲公英",element:["草","萌"],
-        avatar:"/public/images/69.png",
         hp:89,atk:99,mat:94,def:103,mdf:78,spd:52,
         trait:{name:"勇敢",desc:"携带的能耗大于3的技能，威力+40%。"},
         skills:[{name:"超级糖果", element:"萌", type:"物攻", cost:3, power:100,
@@ -310,7 +301,6 @@ const petList7 = [
         ]
     },
     {id:70,name:"蒲公英娃娃",element:["草","萌"],
-        avatar:"/public/images/70.png",
         hp:111,atk:123,mat:117,def:129,mdf:97,spd:65,
         trait:{name:"勇敢",desc:"携带的能耗大于3的技能，威力+40%。"},
         skills:[{name:"超级糖果", element:"萌", type:"物攻", cost:3, power:100,

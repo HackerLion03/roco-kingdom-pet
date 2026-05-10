@@ -1,6 +1,5 @@
 const petList17 = [
     {id:161,name:"游蛇魔使",element:["水","武"],
-        avatar:"/public/images/161.png",
         hp:105,atk:110,mat:104,def:103,mdf:103,spd:105,
         trait:{name:"思维之盾",desc:"应对成功后，下次行动技能能耗-5。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -36,7 +35,6 @@ const petList17 = [
         ]
     },
     {id:162,name:"公平鸽",element:["普通"],
-        avatar:"/public/images/162.png",
         hp:113,atk:93,mat:93,def:125,mdf:125,spd:100,
         trait:{name:"衡量",desc:"入场时，复制敌方的增益。在场时，若敌方获得增益自己也会获得。"},
         skills:[{name:"拍击", element:"普通", type:"魔攻", cost:1, power:65,
@@ -72,7 +70,6 @@ const petList17 = [
         ]
     },
     {id:163,name:"小怂猫",element:["武"],
-        avatar:"/public/images/163.png",
         hp:74,atk:106,mat:101,def:89,mdf:76,spd:76,
         trait:{name:"威慑",desc:"打断敌方时，被打断的技能进入2回合冷却。"},
         skills:[{name:"气波", element:"武", type:"魔攻", cost:0, power:40,
@@ -108,7 +105,6 @@ const petList17 = [
         ]
     },
     {id:164,name:"怒目怂猫",element:["武"],
-        avatar:"/public/images/164.png",
         hp:92,atk:132,mat:126,def:111,mdf:95,spd:95,
         trait:{name:"威慑",desc:"打断敌方时，被打断的技能进入2回合冷却。"},
         skills:[{name:"气波", element:"武", type:"魔攻", cost:0, power:40,
@@ -144,7 +140,6 @@ const petList17 = [
         ]
     },
     {id:165,name:"小狮鹫",element:["翼"],
-        avatar:"/public/images/165.png",
         hp:61,atk:69,mat:39,def:64,mdf:33,spd:72,
         trait:{name:"乘风连击",desc:"使用翼系技能后，获得连击数+1。"},
         skills:[{name:"啄击", element:"翼", type:"物攻", cost:0, power:15,
@@ -176,7 +171,6 @@ const petList17 = [
         ]
     },
     {id:166,name:"神圣狮鹫",element:["翼"],
-        avatar:"/public/images/166.png",
         hp:82,atk:92,mat:51,def:86,mdf:44,spd:96,
         trait:{name:"乘风连击",desc:"使用翼系技能后，获得连击数+1。"},
         skills:[{name:"啄击", element:"翼", type:"物攻", cost:0, power:15,
@@ -208,7 +202,6 @@ const petList17 = [
         ]
     },
     {id:167,name:"皇家狮鹫",element:["翼"],
-        avatar:"/public/images/167.png",
         hp:102,atk:116,mat:64,def:107,mdf:55,spd:120,
         trait:{name:"乘风连击",desc:"使用翼系技能后，获得连击数+1。"},
         skills:[{name:"啄击", element:"翼", type:"物攻", cost:0, power:15,
@@ -240,7 +233,6 @@ const petList17 = [
         ]
     },
     {id:168,name:"圆眼蜘蛛",element:["虫"],
-        avatar:"/public/images/168.png",
         hp:55,atk:37,mat:37,def:55,mdf:55,spd:66,
         trait:{name:"毒腺",desc:"使用能耗小于等于1的技能时，敌方获得4层中毒。"},
         skills:[{name:"虫网", element:"虫", type:"魔攻", cost:0, power:30,
@@ -276,7 +268,6 @@ const petList17 = [
         ]
     },
     {id:169,name:"尖角蜘蛛",element:["虫"],
-        avatar:"/public/images/169.png",
         hp:74,atk:49,mat:49,def:73,mdf:73,spd:88,
         trait:{name:"毒腺",desc:"使用能耗小于等于1的技能时，敌方获得4层中毒。"},
         skills:[{name:"虫网", element:"虫", type:"魔攻", cost:0, power:30,
@@ -312,7 +303,6 @@ const petList17 = [
         ]
     },
     {id:170,name:"芋香巨角蛛",element:["虫","毒"],
-        avatar:"/public/images/170.png",
         hp:92,atk:61,mat:61,def:91,mdf:91,spd:110,
         trait:{name:"毒腺",desc:"使用能耗小于等于1的技能时，敌方获得4层中毒。"},
         skills:[{name:"虫网", element:"虫", type:"魔攻", cost:0, power:30,

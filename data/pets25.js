@@ -1,6 +1,5 @@
 const petList25 = [
      {id:241,name:"龙鱼",element:["水","龙"],
-        avatar:"/public/images/宠物/立绘/241.png",
         hp:75,atk:116,mat:123,def:112,mdf:116,spd:125,
         trait:{name:"洄游",desc:"每次进入蓄力状态，获得全技能能耗永久-1。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -36,7 +35,6 @@ const petList25 = [
         ]
     },
     {id:242,name:"胆小鳗鱼",element:["电","水"],
-        avatar:"/public/images/宠物/立绘/242.png",
         hp:68,atk:92,mat:92,def:83,mdf:90,spd:92,
         trait:{name:"生物电",desc:"携带的电系技能获得迸发：能耗-2"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -72,7 +70,6 @@ const petList25 = [
         ]
     },
     {id:243,name:"闪电鳗鱼",element:["电","水"],
-        avatar:"/public/images/宠物/立绘/243.png",
         hp:85,atk:115,mat:115,def:104,mdf:112,spd:115,
         trait:{name:"生物电",desc:"携带的电系技能获得迸发：能耗-2"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -108,7 +105,6 @@ const petList25 = [
         ]
     },
     {id:244,name:"翡翠水母",element:["水","毒"],
-        avatar:"/public/images/宠物/立绘/244.png",
         hp:108,atk:30,mat:68,def:75,mdf:109,spd:75,
         trait:{name:"扩散侵蚀",desc:"使用水系技能后，敌方获得中毒，获得层数等于中毒印记层数的2倍。"},
         skills:[{name:"甩水", element:"水", type:"魔攻", cost:0, power:30,
@@ -140,7 +136,6 @@ const petList25 = [
         ]
     },
     {id:245,name:"琉璃水母",element:["水","毒"],
-        avatar:"/public/images/宠物/立绘/245.png",
         hp:134,atk:37,mat:85,def:93,mdf:134,spd:95,
         trait:{name:"扩散侵蚀",desc:"使用水系技能后，敌方获得中毒，获得层数等于中毒印记层数的2倍。"},
         skills:[{name:"甩水", element:"水", type:"魔攻", cost:0, power:30,
@@ -172,7 +167,6 @@ const petList25 = [
         ]
     },
     {id:246,name:"裘洛",element:["毒"],
-        avatar:"/public/images/宠物/立绘/246.png",
         hp:44,atk:56,mat:50,def:39,mdf:48,spd:75,
         trait:{name:"蚀刻",desc:"回合结束时，敌方每2层中毒转化为1层中毒印记。"},
         skills:[{name:"毒泡泡", element:"毒", type:"魔攻", cost:0, power:40,
@@ -208,7 +202,6 @@ const petList25 = [
         ]
     },
     {id:247,name:"裘力",element:["毒"],
-        avatar:"/public/images/宠物/立绘/247.png",
         hp:59,atk:74,mat:67,def:52,mdf:64,spd:100,
         trait:{name:"蚀刻",desc:"回合结束时，敌方每2层中毒转化为1层中毒印记。"},
         skills:[{name:"毒泡泡", element:"毒", type:"魔攻", cost:0, power:40,
@@ -244,7 +237,6 @@ const petList25 = [
         ]
     },
     {id:248,name:"裘卡",element:["毒"],
-        avatar:"/public/images/宠物/立绘/248.png",
         hp:73,atk:93,mat:83,def:65,mdf:81,spd:125,
         trait:{name:"蚀刻",desc:"回合结束时，敌方每2层中毒转化为1层中毒印记。"},
         skills:[{name:"毒泡泡", element:"毒", type:"魔攻", cost:0, power:40,
@@ -280,7 +272,6 @@ const petList25 = [
         ]
     },
     {id:249,name:"可爱猿",element:["火"],
-        avatar:"/public/images/宠物/立绘/249.png",
         hp:100,atk:97,mat:43,def:86,mdf:67,spd:36,
         trait:{name:"散热",desc:"初始能量为0，入场前己方精灵每放1次火系技能，回复3能量。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -312,7 +303,6 @@ const petList25 = [
         ]
     },
     {id:250,name:"炽热猿",element:["火"],
-        avatar:"/public/images/宠物/立绘/250.png",
         hp:133,atk:130,mat:57,def:115,mdf:89,spd:48,
         trait:{name:"散热",desc:"初始能量为0，入场前己方精灵每放1次火系技能，回复3能量。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,

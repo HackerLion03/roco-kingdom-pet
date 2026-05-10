@@ -1,6 +1,5 @@
 const petList8 = [
     {id:71,name:"伊贝儿",element:["草"],
-        avatar:"/public/images/71.png",
         hp:85,atk:73,mat:71,def:76,mdf:76,spd:72,
         trait:{name:"腐植循环",desc:"每回复1能量，同时回复5%生命。"},
         skills:[{name:"耀眼", element:"普通", type:"状态", cost:1, power:0,
@@ -36,7 +35,6 @@ const petList8 = [
         ]
     },
     {id:72,name:"伊贝粉粉",element:["草"],
-        avatar:"/public/images/72.png",
         hp:106,atk:91,mat:89,def:95,mdf:95,spd:90,
         trait:{name:"腐植循环",desc:"每回复1能量，同时回复5%生命。"},
         skills:[{name:"耀眼", element:"普通", type:"状态", cost:1, power:0,
@@ -72,7 +70,6 @@ const petList8 = [
         ]
     },
     {id:73,name:"白发懒人",element:["普通"],
-        avatar:"/public/images/73.png",
         hp:86,atk:94,mat:38,def:81,mdf:66,spd:45,
         trait:{name:"慢热型",desc:"初始能量为0，入场前己方精灵每成功应对1次，回复5能量。"},
         skills:[{name:"先发制人", element:"普通", type:"物攻", cost:2, power:55,
@@ -106,7 +103,6 @@ const petList8 = [
         ]
     },
     {id:74,name:"动力猿",element:["普通"],
-        avatar:"/public/images/74.png",
         hp:115,atk:125,mat:51,def:108,mdf:88,spd:60,
         trait:{name:"慢热型",desc:"初始能量为0，入场前己方精灵每成功应对1次，回复5能量。"},
         skills:[{name:"先发制人", element:"普通", type:"物攻", cost:2, power:55,
@@ -140,7 +136,6 @@ const petList8 = [
         ]
     },
     {id:75,name:"瞌睡王",element:["普通"],
-        avatar:"/public/images/75.png",
         hp:144,atk:157,mat:64,def:135,mdf:110,spd:75,
         trait:{name:"慢热型",desc:"初始能量为0，入场前己方精灵每成功应对1次，回复5能量。"},
         skills:[{name:"先发制人", element:"普通", type:"物攻", cost:2, power:55,
@@ -174,7 +169,6 @@ const petList8 = [
         ]
     },
     {id:76,name:"海盔虫",element:["水","毒"],
-        avatar:"/public/images/76.png",
         hp:71,atk:25,mat:59,def:46,mdf:66,spd:60,
         trait:{name:"溶解扩散",desc:"每携带1个毒系技能进入战斗，水系技能使敌方获得1层中毒。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -206,7 +200,6 @@ const petList8 = [
         ]
     },
     {id:77,name:"刺盔虫",element:["水","毒"],
-        avatar:"/public/images/77.png",
         hp:94,atk:33,mat:79,def:61,mdf:88,spd:80,
         trait:{name:"溶解扩散",desc:"每携带1个毒系技能进入战斗，水系技能使敌方获得1层中毒。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -238,7 +231,6 @@ const petList8 = [
         ]
     },
     {id:78,name:"千棘盔",element:["水","毒"],
-        avatar:"/public/images/78.png",
         hp:118,atk:41,mat:99,def:76,mdf:111,spd:100,
         trait:{name:"溶解扩散",desc:"每携带1个毒系技能进入战斗，水系技能使敌方获得1层中毒。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -270,7 +262,6 @@ const petList8 = [
         ]
     },
     {id:79,name:"菊花梨",element:["萌"],
-        avatar:"/public/images/79.png",
         hp:106,atk:49,mat:116,def:77,mdf:115,spd:60,
         trait:{name:"无忧无虑",desc:"可获得的萌化层数不受限制。"},
         skills:[{name:"碰爪", element:"萌", type:"物攻", cost:1, power:60,
@@ -300,7 +291,6 @@ const petList8 = [
         ]
     },
     {id:80,name:"小星光",element:["电"],
-        avatar:"/public/images/80.png",
         hp:60,atk:81,mat:85,def:72,mdf:88,spd:108,
         trait:{name:"电流刺激",desc:"携带的攻击技能获得迸发：威力+40。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,

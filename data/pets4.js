@@ -1,6 +1,5 @@
 const petList4 = [
     {id:31,name:"叮叮恶魔",element:["恶","翼"],
-        avatar:"/public/images/31.png",
         hp:108,atk:140,mat:55,def:73,mdf:54,spd:105,
         trait:{name:"渴求",desc:"入场时获得50%吸血。"},
         skills:[{name:"乘风", element:"翼", type:"状态", cost:2, power:0,
@@ -32,7 +31,6 @@ const petList4 = [
         ]
     },
     {id:32,name:"毛毛",element:["虫","萌"],
-        avatar:"/public/images/32.png",
         hp:32,atk:28,mat:28,def:40,mdf:40,spd:60,
         trait:{name:"化茧",desc:"受到致命伤害时，获得1层萌化，并免疫此次伤害。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -68,7 +66,6 @@ const petList4 = [
         ]
     },
     {id:33,name:"爬爬",element:["虫","萌"],
-        avatar:"/public/images/33.png",
         hp:42,atk:37,mat:37,def:53,mdf:53,spd:80,
         trait:{name:"化茧",desc:"受到致命伤害时，获得1层萌化，并免疫此次伤害。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -104,7 +101,6 @@ const petList4 = [
         ]
     },
     {id:34,name:"化蝶",element:["虫","萌"],
-        avatar:"/public/images/34.png",
         hp:53,atk:46,mat:46,def:66,mdf:66,spd:100,
         trait:{name:"化茧",desc:"受到致命伤害时，获得1层萌化，并免疫此次伤害。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -140,7 +136,6 @@ const petList4 = [
         ]
     },
     {id:35,name:"幽影树",element:["幽","草"],
-        avatar:"/public/images/35.png",
         hp:111,atk:96,mat:96,def:65,mdf:123,spd:80,
         trait:{name:"小偷小摸",desc:"入场时偷取所有敌方精灵2能量。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -176,7 +171,6 @@ const petList4 = [
         ]
     },
     {id:36,name:"小鼠獭",element:["普通","水"],
-        avatar:"/public/images/36.png",
         hp:73,atk:57,mat:57,def:60,mdf:60,spd:48,
         trait:{name:"保守派",desc:"总技能能耗小于4时，自己获得双防+80%。"},
         skills:[{name:"激怒", element:"普通", type:"状态", cost:3, power:0,
@@ -212,7 +206,6 @@ const petList4 = [
         ]
     },
     {id:37,name:"燕尾獭",element:["普通","水"],
-        avatar:"/public/images/37.png",
         hp:97,atk:77,mat:77,def:81,mdf:81,spd:64,
         trait:{name:"保守派",desc:"总技能能耗小于4时，自己获得双防+80%。"},
         skills:[{name:"激怒", element:"普通", type:"状态", cost:3, power:0,
@@ -248,7 +241,6 @@ const petList4 = [
         ]
     },
     {id:38,name:"卷胡巨獭",element:["普通","水"],
-        avatar:"/public/images/38.png",
         hp:121,atk:96,mat:96,def:101,mdf:101,spd:80,
         trait:{name:"保守派",desc:"总技能能耗小于4时，自己获得双防+80%。"},
         skills:[{name:"激怒", element:"普通", type:"状态", cost:3, power:0,
@@ -284,7 +276,6 @@ const petList4 = [
         ]
     },
     {id:39,name:"矿晶虫",element:["光","地"],
-        avatar:"/public/images/39.png",
         hp:79,atk:77,mat:81,def:102,mdf:75,spd:52,
         trait:{name:"偏振",desc:"受到自己携带技能系别的攻击伤害-40%。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -318,7 +309,6 @@ const petList4 = [
         ]
     },
     {id:40,name:"晶石蜗",element:["光","地"],
-        avatar:"/public/images/40.png",
         hp:99,atk:96,mat:101,def:128,mdf:94,spd:65,
         trait:{name:"偏振",desc:"受到自己携带技能系别的攻击伤害-40%。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,

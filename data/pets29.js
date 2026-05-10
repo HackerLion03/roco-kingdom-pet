@@ -1,6 +1,5 @@
 const petList29 = [
     {id:281,name:"混乱鱿彩",element:["幽","恶"],
-        avatar:"/public/images/宠物/立绘/281.png",
         hp:129,atk:105,mat:42,def:131,mdf:99,spd:70,
         trait:{name:"涂鸦",desc:"使用非本系技能时威力+50%。"},
         skills:[{name:"诡刺", element:"幽", type:"物攻", cost:0, power:40,
@@ -38,7 +37,6 @@ const petList29 = [
         ]
     },
     {id:282,name:"秩序鱿墨",element:["幽","萌"],
-        avatar:"/public/images/宠物/立绘/282.png",
         hp:78,atk:120,mat:39,def:124,mdf:113,spd:130,
         trait:{name:"绝对秩序",desc:"受到非敌方系别的技能攻击时伤害-50%。"},
         skills:[{name:"诡刺", element:"幽", type:"物攻", cost:0, power:40,
@@ -76,7 +74,6 @@ const petList29 = [
         ]
     },
     {id:283,name:"小甲虫",element:["虫"],
-        avatar:"/public/images/宠物/立绘/283.png",
         hp:98,atk:71,mat:31,def:97,mdf:61,spd:60,
         trait:{name:"坚韧铠甲",desc:"每受到1次攻击伤害，己方队伍获得1次随机奉献。"},
         skills:[{name:"蛰针", element:"虫", type:"物攻", cost:0, power:40,
@@ -108,7 +105,6 @@ const petList29 = [
         ]
     },
     {id:284,name:"铠甲虫",element:["虫"],
-        avatar:"/public/images/宠物/立绘/284.png",
         hp:122,atk:88,mat:39,def:121,mdf:77,spd:75,
         trait:{name:"坚韧铠甲",desc:"每受到1次攻击伤害，己方队伍获得1次随机奉献。"},
         skills:[{name:"蛰针", element:"虫", type:"物攻", cost:0, power:40,
@@ -140,7 +136,6 @@ const petList29 = [
         ]
     },
     {id:285,name:"圣剑侍从",element:["机械"],
-        avatar:"/public/images/宠物/立绘/285.png",
         hp:139,atk:116,mat:111,def:139,mdf:139,spd:52,
         trait:{name:"正位宝剑",desc:"仅可以使用1号位技能。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -178,7 +173,6 @@ const petList29 = [
         ]
     },
     {id:286,name:"圣剑-X",element:["机械"],
-        avatar:"/public/images/宠物/立绘/286.png",
         hp:174,atk:144,mat:139,def:173,mdf:173,spd:65,
         trait:{name:"正位宝剑",desc:"仅可以使用1号位技能。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -216,7 +210,6 @@ const petList29 = [
         ]
     },
     {id:287,name:"吸泥鸥",element:["地","翼"],
-        avatar:"/public/images/宠物/立绘/287.png",
         hp:99,atk:89,mat:33,def:87,mdf:71,spd:76,
         trait:{name:"无差别过滤",desc:"在场时，所有精灵连击数固定为2。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -248,7 +241,6 @@ const petList29 = [
         ]
     },
     {id:288,name:"泥吼牙",element:["地","翼"],
-        avatar:"/public/images/宠物/立绘/288.png",
         hp:124,atk:122,mat:41,def:109,mdf:88,spd:95,
         trait:{name:"无差别过滤",desc:"在场时，所有精灵连击数固定为2。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -280,7 +272,6 @@ const petList29 = [
         ]
     },
     {id:289,name:"大头骨龙",element:["龙","幽"],
-        avatar:"/public/images/宠物/立绘/289.png",
         hp:96,atk:109,mat:40,def:84,mdf:65,spd:48,
         trait:{name:"不朽",desc:"力竭3回合后复活。"},
         skills:[{name:"龙血", element:"龙", type:"防御", cost:2, power:0,
@@ -312,7 +303,6 @@ const petList29 = [
         ]
     },
     {id:290,name:"寂灭骨龙",element:["龙","幽"],
-        avatar:"/public/images/宠物/立绘/290.png",
         hp:120,atk:137,mat:50,def:104,mdf:81,spd:60,
         trait:{name:"不朽",desc:"力竭3回合后复活。"},
         skills:[{name:"龙血", element:"龙", type:"防御", cost:2, power:0,

@@ -1,6 +1,5 @@
 const petList9 = [
     {id:81,name:"星光狮",element:["电"],
-        avatar:"/public/images/81.png",
         hp:75,atk:101,mat:106,def:90,mdf:110,spd:135,
         trait:{name:"电流刺激",desc:"携带的攻击技能获得迸发：威力+40。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -36,7 +35,6 @@ const petList9 = [
         ]
     },
     {id:82,name:"一窝蜂",element:["虫","翼"],
-        avatar:"/public/images/82.png",
         hp:87,atk:32,mat:29,def:27,mdf:27,spd:26,
         trait:{name:"虫群鼓舞",desc:"队伍中每有1只其他的虫系精灵，自己入场时获得攻防速+10%。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -74,7 +72,6 @@ const petList9 = [
         ]
     },
     {id:83,name:"黄蜂后",element:["虫","翼"],
-        avatar:"/public/images/83.png",
         hp:116,atk:43,mat:39,def:36,mdf:36,spd:35,
         trait:{name:"虫群鼓舞",desc:"队伍中每有1只其他的虫系精灵，自己入场时获得攻防速+10%。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -112,7 +109,6 @@ const petList9 = [
         ]
     },
     {id:84,name:"花魁蜂后",element:["虫","翼"],
-        avatar:"/public/images/84.png",
         hp:145,atk:54,mat:49,def:45,mdf:45,spd:44,
         trait:{name:"虫群鼓舞",desc:"队伍中每有1只其他的虫系精灵，自己入场时获得攻防速+10%。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -150,7 +146,6 @@ const petList9 = [
         ]
     },
     {id:85,name:"小夜",element:["恶"],
-        avatar:"/public/images/85.png",
         hp:60,atk:69,mat:63,def:62,mdf:51,spd:69,
         trait:{name:"嫁祸",desc:"自己每失去25%生命，连击数+2。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -186,7 +181,6 @@ const petList9 = [
         ]
     },
     {id:86,name:"紫夜",element:["恶"],
-        avatar:"/public/images/86.png",
         hp:80,atk:92,mat:84,def:83,mdf:68,spd:92,
         trait:{name:"嫁祸",desc:"自己每失去25%生命，连击数+2。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -222,7 +216,6 @@ const petList9 = [
         ]
     },
     {id:87,name:"朔夜伊芙",element:["恶"],
-        avatar:"/public/images/87.png",
         hp:100,atk:115,mat:105,def:104,mdf:85,spd:115,
         trait:{name:"嫁祸",desc:"自己每失去25%生命，连击数+2。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -258,7 +251,6 @@ const petList9 = [
         ]
     },
     {id:88,name:"乖乖鹄",element:["翼","水"],
-        avatar:"/public/images/88.png",
         hp:75,atk:57,mat:52,def:83,mdf:58,spd:69,
         trait:{name:"洁癖",desc:"离场后，自己的增益和减益会被更换入场的精灵继承。"},
         skills:[{name:"鸣叫", element:"翼", type:"魔攻", cost:0, power:40,
@@ -286,7 +278,6 @@ const petList9 = [
         ]
     },
     {id:89,name:"蓝珠天鹅",element:["翼","水"],
-        avatar:"/public/images/89.png",
         hp:100,atk:76,mat:69,def:110,mdf:78,spd:92,
         trait:{name:"洁癖",desc:"离场后，自己的增益和减益会被更换入场的精灵继承。"},
         skills:[{name:"鸣叫", element:"翼", type:"魔攻", cost:0, power:40,
@@ -314,7 +305,6 @@ const petList9 = [
         ]
     },
     {id:90,name:"翠顶夫人",element:["翼","水"],
-        avatar:"/public/images/90.png",
         hp:125,atk:95,mat:86,def:138,mdf:97,spd:115,
         trait:{name:"洁癖",desc:"离场后，自己的增益和减益会被更换入场的精灵继承。"},
         skills:[{name:"鸣叫", element:"翼", type:"魔攻", cost:0, power:40,

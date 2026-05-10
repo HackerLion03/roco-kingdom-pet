@@ -1,6 +1,5 @@
 const petList27 = [
     {id:261,name:"螺旋帕帕",element:["机械","翼"],
-        avatar:"/public/images/宠物/立绘/261.png",
         hp:88,atk:55,mat:8,def:79,mdf:67,spd:80,
         trait:{name:"翼轴",desc:"1号位技能获得迅捷和传动1。"},
         skills:[{name:"齿轮扭矩", element:"机械", type:"物攻", cost:3, power:80,
@@ -32,7 +31,6 @@ const petList27 = [
         ]
     },
     {id:262,name:"帕帕斯卡",element:["机械","翼"],
-        avatar:"/public/images/宠物/立绘/262.png",
         hp:110,atk:68,mat:10,def:99,mdf:84,spd:100,
         trait:{name:"翼轴",desc:"1号位技能获得迅捷和传动1。"},
         skills:[{name:"齿轮扭矩", element:"机械", type:"物攻", cost:3, power:80,
@@ -64,7 +62,6 @@ const petList27 = [
         ]
     },
     {id:263,name:"机械方方",element:["机械"],
-        avatar:"/public/images/宠物/立绘/263.png",
         hp:62,atk:81,mat:32,def:76,mdf:60,spd:51,
         trait:{name:"盲拧",desc:"回合开始时，技能顺序打乱，4号位的技能能耗-4。"},
         skills:[{name:"械斗", element:"机械", type:"物攻", cost:1, power:45,
@@ -96,7 +93,6 @@ const petList27 = [
         ]
     },
     {id:264,name:"多彩方方",element:["机械"],
-        avatar:"/public/images/宠物/立绘/264.png",
         hp:82,atk:108,mat:43,def:101,mdf:80,spd:68,
         trait:{name:"盲拧",desc:"回合开始时，技能顺序打乱，4号位的技能能耗-4。"},
         skills:[{name:"械斗", element:"机械", type:"物攻", cost:1, power:45,
@@ -128,7 +124,6 @@ const petList27 = [
         ]
     },
     {id:265,name:"立方人",element:["机械"],
-        avatar:"/public/images/宠物/立绘/265.png",
         hp:103,atk:135,mat:54,def:127,mdf:101,spd:85,
         trait:{name:"盲拧",desc:"回合开始时，技能顺序打乱，4号位的技能能耗-4。"},
         skills:[{name:"械斗", element:"机械", type:"物攻", cost:1, power:45,
@@ -160,7 +155,6 @@ const petList27 = [
         ]
     },
     {id:266,name:"可立鸡",element:["火"],
-        avatar:"/public/images/宠物/立绘/266.png",
         hp:65,atk:79,mat:79,def:55,mdf:52,spd:66,
         trait:{name:"指挥家",desc:"应对成功后，永久获得双攻+20%。"},
         skills:[{name:"火焰冲锋", element:"火", type:"物攻", cost:1, power:60,
@@ -188,7 +182,6 @@ const petList27 = [
         ]
     },
     {id:267,name:"晕晕鸡",element:["火"],
-        avatar:"/public/images/宠物/立绘/267.png",
         hp:86,atk:106,mat:106,def:74,mdf:70,spd:88,
         trait:{name:"指挥家",desc:"应对成功后，永久获得双攻+20%。"},
         skills:[{name:"火焰冲锋", element:"火", type:"物攻", cost:1, power:60,
@@ -216,7 +209,6 @@ const petList27 = [
         ]
     },
     {id:268,name:"绅士鸡",element:["火","武"],
-        avatar:"/public/images/宠物/立绘/268.png",
         hp:108,atk:132,mat:132,def:92,mdf:87,spd:110,
         trait:{name:"指挥家",desc:"应对成功后，永久获得双攻+20%。"},
         skills:[{name:"火焰冲锋", element:"火", type:"物攻", cost:1, power:60,
@@ -256,7 +248,6 @@ const petList27 = [
         ]
     },
     {id:269,name:"武者鸡",element:["火","武"],
-        avatar:"/public/images/宠物/立绘/269.png",
         hp:121,atk:144,mat:58,def:52,mdf:70,spd:95,
         trait:{name:"斗技",desc:"应对成功后，获得全技能威力永久+20。"},
         skills:[{name:"火焰冲锋", element:"火", type:"物攻", cost:1, power:60,
@@ -290,7 +281,6 @@ const petList27 = [
         ]
     },
     {id:270,name:"优优",element:["地","光"],
-        avatar:"/public/images/宠物/立绘/270.png",
         hp:81,atk:35,mat:89,def:84,mdf:104,spd:92,
         trait:{name:"哨兵",desc:"回合开始时若敌方技能足够击败自己，自己获得速度+50，行动后脱离。"},
         skills:[{name:"泥浆", element:"地", type:"魔攻", cost:0, power:40,

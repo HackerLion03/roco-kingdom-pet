@@ -1,6 +1,5 @@
 const petList23 = [
     {id:221,name:"多西",element:["机械","地"],
-        avatar:"/public/images/221.png",
         hp:64,atk:73,mat:26,def:82,mdf:70,spd:30,
         trait:{name:"定向精炼",desc:"己方精灵每使用1次防御技能，自己入场时机械系和地面系技能威力+10%。"},
         skills:[{name:"先发制人", element:"普通", type:"物攻", cost:2, power:55,
@@ -32,7 +31,6 @@ const petList23 = [
         ]
     },
     {id:222,name:"库多西",element:["机械","地"],
-        avatar:"/public/images/222.png",
         hp:85,atk:98,mat:34,def:109,mdf:93,spd:40,
         trait:{name:"定向精炼",desc:"己方精灵每使用1次防御技能，自己入场时机械系和地面系技能威力+10%。"},
         skills:[{name:"先发制人", element:"普通", type:"物攻", cost:2, power:55,
@@ -64,7 +62,6 @@ const petList23 = [
         ]
     },
     {id:223,name:"波多西",element:["机械","地"],
-        avatar:"/public/images/223.png",
         hp:106,atk:122,mat:43,def:136,mdf:116,spd:50,
         trait:{name:"定向精炼",desc:"己方精灵每使用1次防御技能，自己入场时机械系和地面系技能威力+10%。"},
         skills:[{name:"先发制人", element:"普通", type:"物攻", cost:2, power:55,
@@ -96,7 +93,6 @@ const petList23 = [
         ]
     },
     {id:224,name:"小翼龙",element:["龙","翼"],
-        avatar:"/public/images/224.png",
         hp:66,atk:91,mat:24,def:73,mdf:63,spd:92,
         trait:{name:"暴食",desc:"携带的龙系技能获得迅捷。"},
         skills:[{name:"抓挠", element:"普通", type:"物攻", cost:0, power:35,
@@ -128,7 +124,6 @@ const petList23 = [
         ]
     },
     {id:225,name:"翼龙",element:["龙","翼"],
-        avatar:"/public/images/225.png",
         hp:83,atk:114,mat:31,def:91,mdf:79,spd:115,
         trait:{name:"暴食",desc:"携带的龙系技能获得迅捷。"},
         skills:[{name:"抓挠", element:"普通", type:"物攻", cost:0, power:35,
@@ -160,7 +155,6 @@ const petList23 = [
         ]
     },
     {id:226,name:"电动长颈鹿",element:["电"],
-        avatar:"/public/images/226.png",
         hp:55,atk:59,mat:20,def:65,mdf:47,spd:72,
         trait:{name:"蓄电池",desc:"每入场1次，永久获得双攻+20%。"},
         skills:[{name:"导电撞击", element:"电", type:"物攻", cost:0, power:40,
@@ -192,7 +186,6 @@ const petList23 = [
         ]
     },
     {id:227,name:"奔乐鹿",element:["电"],
-        avatar:"/public/images/227.png",
         hp:73,atk:79,mat:27,def:86,mdf:63,spd:96,
         trait:{name:"蓄电池",desc:"每入场1次，永久获得双攻+20%。"},
         skills:[{name:"导电撞击", element:"电", type:"物攻", cost:0, power:40,
@@ -224,7 +217,6 @@ const petList23 = [
         ]
     },
     {id:228,name:"爵士鹿",element:["电"],
-        avatar:"/public/images/228.png",
         hp:92,atk:99,mat:34,def:108,mdf:79,spd:120,
         trait:{name:"蓄电池",desc:"每入场1次，永久获得双攻+20%。"},
         skills:[{name:"导电撞击", element:"电", type:"物攻", cost:0, power:40,
@@ -256,7 +248,6 @@ const petList23 = [
         ]
     },
     {id:229,name:"缇塔",element:["机械"],
-        avatar:"/public/images/229.png",
         hp:73,atk:99,mat:38,def:98,mdf:74,spd:72,
         trait:{name:"向心力",desc:"1号位和2号位技能获得传动1和威力+30。"},
         skills:[{name:"拆卸", element:"机械", type:"物攻", cost:0, power:40,
@@ -290,7 +281,6 @@ const petList23 = [
         ]
     },
     {id:230,name:"声波缇塔",element:["机械"],
-        avatar:"/public/images/230.png",
         hp:92,atk:124,mat:48,def:122,mdf:92,spd:90,
         trait:{name:"向心力",desc:"1号位和2号位技能获得传动1和威力+30。"},
         skills:[{name:"拆卸", element:"机械", type:"物攻", cost:0, power:40,

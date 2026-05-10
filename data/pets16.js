@@ -1,6 +1,5 @@
 const petList16 = [
     {id:151,name:"灵羽勇士",element:["翼"],
-        avatar:"/public/images/151.png",
         hp:105,atk:87,mat:87,def:102,mdf:66,spd:100,
         trait:{name:"飓风",desc:"对本精灵的技能，若其他翼系精灵携带相同技能，则获得迅捷。被敌方精灵击败时，自己额外损失1点魔力。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -38,7 +37,6 @@ const petList16 = [
         ]
     },
     {id:152,name:"圣羽翼王",element:["翼"],
-        avatar:"/public/images/152.png",
         hp:132,atk:109,mat:109,def:128,mdf:83,spd:125,
         trait:{name:"飓风",desc:"对本精灵的技能，若其他翼系精灵携带相同技能，则获得迅捷。被敌方精灵击败时，自己额外损失1点魔力。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -76,7 +74,6 @@ const petList16 = [
         ]
     },
     {id:153,name:"松仔",element:["草","武"],
-        avatar:"/public/images/153.png",
         hp:63,atk:83,mat:34,def:77,mdf:60,spd:63,
         trait:{name:"野性感官",desc:"应对成功后，下次行动先手+1。"},
         skills:[{name:"刺藤", element:"草", type:"物攻", cost:3, power:45,
@@ -110,7 +107,6 @@ const petList16 = [
         ]
     },
     {id:154,name:"松叶羊",element:["草","武"],
-        avatar:"/public/images/154.png",
         hp:84,atk:111,mat:46,def:102,mdf:80,spd:84,
         trait:{name:"野性感官",desc:"应对成功后，下次行动先手+1。"},
         skills:[{name:"刺藤", element:"草", type:"物攻", cost:3, power:45,
@@ -144,7 +140,6 @@ const petList16 = [
         ]
     },
     {id:155,name:"针叶巡林",element:["草","武"],
-        avatar:"/public/images/155.png",
         hp:105,atk:139,mat:57,def:128,mdf:100,spd:105,
         trait:{name:"野性感官",desc:"应对成功后，下次行动先手+1。"},
         skills:[{name:"刺藤", element:"草", type:"物攻", cost:3, power:45,
@@ -178,7 +173,6 @@ const petList16 = [
         ]
     },
     {id:156,name:"小勇狮",element:["火","武"],
-        avatar:"/public/images/156.png",
         hp:82,atk:31,mat:66,def:53,mdf:78,spd:48,        
         trait:{name:"圣火骑士",desc:"应对成功后，下次攻击威力翻倍。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -210,7 +204,6 @@ const petList16 = [
         ]
     },
     {id:157,name:"炽焰狮",element:["火","武"],
-        avatar:"/public/images/157.png",
         hp:110,atk:41,mat:89,def:70,mdf:104,spd:64,
         trait:{name:"圣火骑士",desc:"应对成功后，下次攻击威力翻倍。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -242,7 +235,6 @@ const petList16 = [
         ]
     },
     {id:158,name:"炽心勇狮",element:["火","武"],
-        avatar:"/public/images/158.png",
         hp:137,atk:51,mat:111,def:88,mdf:130,spd:80,
         trait:{name:"圣火骑士",desc:"应对成功后，下次攻击威力翻倍。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -274,7 +266,6 @@ const petList16 = [
         ]
     },
     {id:159,name:"水滴蛇",element:["水","武"],
-        avatar:"/public/images/159.png",
         hp:63,atk:66,mat:62,def:62,mdf:62,spd:63,
         trait:{name:"思维之盾",desc:"应对成功后，下次行动技能能耗-5。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -310,7 +301,6 @@ const petList16 = [
         ]
     },
     {id:160,name:"水蛇锁",element:["水","武"],
-        avatar:"/public/images/160.png",
         hp:84,atk:88,mat:83,def:83,mdf:83,spd:84,
         trait:{name:"思维之盾",desc:"应对成功后，下次行动技能能耗-5。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,

@@ -1,6 +1,5 @@
 const petList3 = [
     {id:21,name:"小灵菇",element:["幽"],
-        avatar:"/public/images/21.png",
         hp:67,atk:59,mat:59,def:62,mdf:62,spd:45,
         trait:{name:"毒蘑菇",desc:"回合结束偷取敌方1能量。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -37,7 +36,6 @@ const petList3 = [
             desc:"造成物伤，应对状态：自己回复50%生命和5能量。"},]
     },
     {id:22,name:"幻灵菇",element:["草","幽"],
-        avatar:"/public/images/22.png",
         hp:89,atk:79,mat:79,def:83,mdf:109,spd:60,
         trait:{name:"毒蘑菇",desc:"回合结束偷取敌方1能量。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -74,7 +72,6 @@ const petList3 = [
             desc:"造成物伤，应对状态：自己回复50%生命和5能量。"},]
     },
     {id:23,name:"幻影灵菇",element:["草","幽"],
-        avatar:"/public/images/23.png",
         hp:111,atk:98,mat:98,def:103,mdf:136,spd:75,
         trait:{name:"毒蘑菇",desc:"回合结束偷取敌方1能量。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -111,7 +108,6 @@ const petList3 = [
             desc:"造成物伤，应对状态：自己回复50%生命和5能量。"},]
     },
     {id:24,name:"石肤蜥",element:["地"],
-        avatar:"/public/images/24.png",
         hp:69,atk:54,mat:53,def:65,mdf:45,spd:57,
         trait:{name:"刺肤",desc:"每受到1次攻击，对攻击自己的精灵造成50威力物理伤害。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -147,7 +143,6 @@ const petList3 = [
         ]
     },
     {id:25,name:"石刺蜥",element:["地"],
-        avatar:"/public/images/25.png",
         hp:92,atk:72,mat:71,def:87,mdf:60,spd:76,
         trait:{name:"刺肤",desc:"每受到1次攻击，对攻击自己的精灵造成50威力物理伤害。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -183,7 +178,6 @@ const petList3 = [
         ]
     },
     {id:26,name:"石刺王蜥",element:["地"],
-        avatar:"/public/images/26.png",
         hp:115,atk:89,mat:89,def:109,mdf:75,spd:95,
         trait:{name:"刺肤",desc:"每受到1次攻击，对攻击自己的精灵造成50威力物理伤害。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -219,7 +213,6 @@ const petList3 = [
         ]
     },
     {id:27,name:"布是石",element:["地"],
-        avatar:"/public/images/27.png",
         hp:72,atk:81,mat:29,def:95,mdf:90,spd:42,
         trait:{name:"地脉",desc:"初始能量为0，入场前己方精灵每放1次地系技能，回复3能量。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -253,7 +246,6 @@ const petList3 = [
         ]
     },
     {id:28,name:"布是岩",element:["地"],
-        avatar:"/public/images/28.png",
         hp:96,atk:108,mat:39,def:127,mdf:120,spd:56,
         trait:{name:"地脉",desc:"初始能量为0，入场前己方精灵每放1次地系技能，回复3能量。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -287,7 +279,6 @@ const petList3 = [
         ]
     },
     {id:29,name:"布克棱岩",element:["地"],
-        avatar:"/public/images/29.png",
         hp:120,atk:135,mat:49,def:159,mdf:150,spd:70,
         trait:{name:"地脉",desc:"初始能量为0，入场前己方精灵每放1次地系技能，回复3能量。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -321,7 +312,6 @@ const petList3 = [
         ]
     },
     {id:30,name:"恶魔叮",element:["恶","翼"],
-        avatar:"/public/images/30.png",
         hp:86,atk:112,mat:44,def:58,mdf:43,spd:84,
         trait:{name:"渴求",desc:"入场时获得50%吸血。"},
         skills:[{name:"乘风", element:"翼", type:"状态", cost:2, power:0,

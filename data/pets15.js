@@ -1,6 +1,5 @@
 const petList15 = [
     {id:141,name:"雪灵",element:["冰"],
-        avatar:"/public/images/141.png",
         hp:94,atk:112,mat:112,def:105,mdf:105,spd:115,
         trait:{name:"冰封",desc:"在场时，敌方全技能能耗+1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -38,7 +37,6 @@ const petList15 = [
         ]
     },
     {id:142,name:"大耳帽兜",element:["冰","萌"],
-        avatar:"/public/images/142.png",
         hp:78,atk:62,mat:59,def:39,mdf:78,spd:54,
         trait:{name:"捉迷藏",desc:"使敌方获得冻结时，也会使其获得全技能能耗+1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -76,7 +74,6 @@ const petList15 = [
         ]
     },
     {id:143,name:"帽兜娃娃",element:["冰","萌"],
-        avatar:"/public/images/143.png",
         hp:104,atk:83,mat:78,def:52,mdf:104,spd:72,
         trait:{name:"捉迷藏",desc:"使敌方获得冻结时，也会使其获得全技能能耗+1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -114,7 +111,6 @@ const petList15 = [
         ]
     },
     {id:144,name:"雪影娃娃",element:["冰","萌"],
-        avatar:"/public/images/144.png",
         hp:130,atk:103,mat:98,def:66,mdf:130,spd:90,
         trait:{name:"捉迷藏",desc:"使敌方获得冻结时，也会使其获得全技能能耗+1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -152,7 +148,6 @@ const petList15 = [
         ]
     },
     {id:145,name:"权杖-II",element:["机械"],
-        avatar:"/public/images/145.png",
         hp:82,atk:84,mat:78,def:109,mdf:109,spd:60,
         trait:{name:"机械变式",desc:"自己携带的技能每回合位置变化时，该技能能耗-1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -190,7 +185,6 @@ const petList15 = [
         ]
     },
     {id:146,name:"权杖-V",element:["机械"],
-        avatar:"/public/images/146.png",
         hp:103,atk:105,mat:97,def:136,mdf:136,spd:75,
         trait:{name:"机械变式",desc:"自己携带的技能每回合位置变化时，该技能能耗-1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -228,7 +222,6 @@ const petList15 = [
         ]
     },
     {id:147,name:"灵狐",element:["火","冰"],
-        avatar:"/public/images/147.png",
         hp:69,atk:52,mat:52,def:50,mdf:64,spd:60,
         trait:{name:"灵魂灼烧",desc:"冰系技能使敌方获得4层灼烧，火系技能使敌方获得2层冻结。"},
         skills:[{name:"冷风", element:"冰", type:"魔攻", cost:1, power:60,
@@ -264,7 +257,6 @@ const petList15 = [
         ]
     },
     {id:148,name:"九尾狐",element:["火","冰"],
-        avatar:"/public/images/148.png",
         hp:92,atk:70,mat:70,def:67,mdf:86,spd:80,
         trait:{name:"灵魂灼烧",desc:"冰系技能使敌方获得4层灼烧，火系技能使敌方获得2层冻结。"},
         skills:[{name:"冷风", element:"冰", type:"魔攻", cost:1, power:60,
@@ -300,7 +292,6 @@ const petList15 = [
         ]
     },
     {id:149,name:"尖嘴狐仙",element:["火","冰"],
-        avatar:"/public/images/149.png",
         hp:115,atk:87,mat:87,def:84,mdf:107,spd:100,
         trait:{name:"灵魂灼烧",desc:"冰系技能使敌方获得4层灼烧，火系技能使敌方获得2层冻结。"},
         skills:[{name:"冷风", element:"冰", type:"魔攻", cost:1, power:60,
@@ -336,7 +327,6 @@ const petList15 = [
         ]
     },
     {id:150,name:"里奥",element:["翼"],
-        avatar:"/public/images/150.png",
         hp:79,atk:65,mat:65,def:77,mdf:50,spd:75,
         trait:{name:"飓风",desc:"对本精灵的技能，若其他翼系精灵携带相同技能，则获得迅捷。被敌方精灵击败时，自己额外损失1点魔力。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,

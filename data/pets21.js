@@ -1,6 +1,5 @@
 const petList21 = [
     {id:201,name:"花苑鳗",element:["地","草"],
-        avatar:"/public/images/201.png",
         hp:232,atk:73,mat:73,def:110,mdf:90,spd:52,
         trait:{name:"铃兰晚钟",desc:"首次入场时，失去自己一半的当前生命。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -36,7 +35,6 @@ const petList21 = [
         ]
     },
     {id:202,name:"鳗尾兽",element:["地","草"],
-        avatar:"/public/images/202.png",
         hp:290,atk:91,mat:91,def:138,mdf:113,spd:65,
         trait:{name:"铃兰晚钟",desc:"首次入场时，失去自己一半的当前生命。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -72,7 +70,6 @@ const petList21 = [
         ]
     },
     {id:203,name:"伊雷龙",element:["龙"],
-        avatar:"/public/images/203.png",
         hp:90,atk:73,mat:152,def:55,mdf:79,spd:72,
         trait:{name:"嫉妒",desc:"蓄力状态下，可以使用任一携带技能。"},
         skills:[{name:"绵里藏针", element:"龙", type:"魔攻", cost:2, power:50,
@@ -104,7 +101,6 @@ const petList21 = [
         ]
     },
     {id:204,name:"伊兰亚龙",element:["龙"],
-        avatar:"/public/images/204.png",
         hp:112,atk:91,mat:190,def:69,mdf:99,spd:90,
         trait:{name:"嫉妒",desc:"蓄力状态下，可以使用任一携带技能。"},
         skills:[{name:"绵里藏针", element:"龙", type:"魔攻", cost:2, power:50,
@@ -136,7 +132,6 @@ const petList21 = [
         ]
     },
     {id:205,name:"拉特",element:["电"],
-        avatar:"/public/images/205.png",
         hp:67,atk:80,mat:80,def:62,mdf:78,spd:100,
         trait:{name:"噼啪！",desc:"入场后首次行动，所选技能使用次数+1。"},
         skills:[{name:"防御",cost:1,type:"防御",power:0,
@@ -170,7 +165,6 @@ const petList21 = [
         ]
     },
     {id:206,name:"酷拉",element:["电"],
-        avatar:"/public/images/206.png",
         hp:83,atk:100,mat:100,def:78,mdf:97,spd:125,
         trait:{name:"噼啪！",desc:"入场后首次行动，所选技能使用次数+1。"},
         skills:[{name:"防御",cost:1,type:"防御",power:0,
@@ -204,7 +198,6 @@ const petList21 = [
         ]
     },
     {id:207,name:"闪电环",element:["电"],
-        avatar:"/public/images/200.png",
         hp:64,atk:49,mat:49,def:51,mdf:50,spd:72,
         trait:{name:"防过载保护",desc:"每次行动后脱离。"},
         skills:[{name:"操控",cost:1,type:"状态",power:0,
@@ -242,7 +235,6 @@ const petList21 = [
         ]
     },
     {id:208,name:"刺电环",element:["电"],
-        avatar:"/public/images/200.png",
         hp:85,atk:65,mat:65,def:78,mdf:67,spd:96,
         trait:{name:"防过载保护",desc:"每次行动后脱离。"},
         skills:[{name:"操控",cost:1,type:"状态",power:0,
@@ -280,7 +272,6 @@ const petList21 = [
         ]
     },
     {id:209,name:"荆棘电环",element:["电"],
-        avatar:"/public/images/200.png",
         hp:106,atk:81,mat:81,def:85,mdf:84,spd:120,
         trait:{name:"防过载保护",desc:"每次行动后脱离。"},
         skills:[{name:"操控",cost:1,type:"状态",power:0,
@@ -318,7 +309,6 @@ const petList21 = [
         ]
     },
     {id:210,name:"小箱怪",element:["机械","幻"],
-        avatar:"/public/images/210.png",
         hp:111,atk:103,mat:103,def:122,mdf:122,spd:64,
         trait:{name:"虚假宝箱",desc:"自己力竭时，敌方获得攻防+20%。"},
         skills:[{name:"杠杆置换", element:"机械", type:"状态", cost:0, power:0,

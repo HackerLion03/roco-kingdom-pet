@@ -1,6 +1,6 @@
 const petList13 = [
     {id:121,name:"小黑猫",element:["普通"],
-        avatar:"/public/images/121.png",
+         
         hp:121,atk:72,mat:130,def:54,mdf:95,spd:56,
         trait:{name:"预警",desc:"若敌方技能足够击败自己，回合开始时自己获得速度+50。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -32,7 +32,7 @@ const petList13 = [
         ]
     },
     {id:122,name:"黑猫巫师",element:["普通"],
-        avatar:"/public/images/122.png",
+         
         hp:152,atk:91,mat:163,def:67,mdf:119,spd:70,
         trait:{name:"预警",desc:"若敌方技能足够击败自己，回合开始时自己获得速度+50。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -64,7 +64,7 @@ const petList13 = [
         ]
     },
     {id:123,name:"忽幽狸",element:["幽","毒"],
-        avatar:"/public/images/123.png",
+         
         hp:78,atk:87,mat:84,def:84,mdf:56,spd:104,
         trait:{name:"下黑手",desc:"敌方精灵离场后，更换入场的精灵获得5层中毒。"},
         skills:[{name:"毒针", element:"毒", type:"物攻", cost:0, power:20,
@@ -100,7 +100,7 @@ const petList13 = [
         ]
     },
     {id:124,name:"影狸",element:["幽","毒"],
-        avatar:"/public/images/124.png",
+         
 hp:97,atk:109,mat:105,def:105,mdf:70,spd:130,
         trait:{name:"下黑手",desc:"敌方精灵离场后，更换入场的精灵获得5层中毒。"},
         skills:[{name:"毒针", element:"毒", type:"物攻", cost:0, power:20,
@@ -136,7 +136,7 @@ hp:97,atk:109,mat:105,def:105,mdf:70,spd:130,
         ]
     },
     {id:125,name:"多多",element:["毒","地"],
-        avatar:"/public/images/125.png",
+         
         hp:47,atk:53,mat:53,def:82,mdf:66,spd:54,
         trait:{name:"毒牙",desc:"敌使敌方获得中毒时，也会使其获得魔攻和魔防-40%。"},
         skills:[{name:"以毒攻毒", element:"毒", type:"状态", cost:1, power:0,
@@ -174,7 +174,7 @@ hp:97,atk:109,mat:105,def:105,mdf:70,spd:130,
         ]
     },
     {id:126,name:"多啦多",element:["毒","地"],
-        avatar:"/public/images/126.png",
+         
         hp:63,atk:70,mat:70,def:109,mdf:88,spd:72,
         trait:{name:"毒牙",desc:"使敌方获得中毒时，也会使其获得魔攻和魔防-40%。"},
         skills:[{name:"以毒攻毒", element:"毒", type:"状态", cost:1, power:0,
@@ -212,7 +212,7 @@ hp:97,atk:109,mat:105,def:105,mdf:70,spd:130,
         ]
     },
     {id:127,name:"古啦多",element:["毒","地"],
-        avatar:"/public/images/127.png",
+         
         hp:79,atk:88,mat:88,def:136,mdf:110,spd:90,
         trait:{name:"毒牙",desc:"使敌方获得中毒时，也会使其获得魔攻和魔防-40%。"},
         skills:[{name:"以毒攻毒", element:"毒", type:"状态", cost:1, power:0,
@@ -250,7 +250,7 @@ hp:97,atk:109,mat:105,def:105,mdf:70,spd:130,
         ]
     },
     {id:128,name:"哭哭菇",element:["幻"],
-        avatar:"/public/images/128.png",
+         
         hp:74,atk:38,mat:41,def:30,mdf:60,spd:36,
         trait:{name:"吸积盘",desc:"回合结束时，敌方获得2层星陨印记。"},
         skills:[{name:"偷师", element:"幻", type:"物攻", cost:0, power:30,
@@ -286,7 +286,7 @@ hp:97,atk:109,mat:105,def:105,mdf:70,spd:130,
         ]
     },
     {id:129,name:"怖须菇",element:["幻"],
-        avatar:"/public/images/129.png",
+         
         hp:99,atk:50,mat:55,def:40,mdf:80,spd:48,
         trait:{name:"吸积盘",desc:"回合结束时，敌方获得2层星陨印记。"},
         skills:[{name:"偷师", element:"幻", type:"物攻", cost:0, power:30,
@@ -322,7 +322,7 @@ hp:97,atk:109,mat:105,def:105,mdf:70,spd:130,
         ]
     },
     {id:130,name:"怖哭菇",element:["幻"],
-        avatar:"/public/images/130.png",
+         
         hp:124,atk:63,mat:69,def:50,mdf:100,spd:60,
         trait:{name:"吸积盘",desc:"回合结束时，敌方获得2层星陨印记。"},
         skills:[{name:"偷师", element:"幻", type:"物攻", cost:0, power:30,

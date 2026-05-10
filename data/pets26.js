@@ -1,6 +1,5 @@
 const petList26 = [
     {id:251,name:"火焰猿",element:["火"],
-        avatar:"/public/images/宠物/立绘/251.png",
         hp:167,atk:162,mat:72,def:143,mdf:111,spd:60,
         trait:{name:"散热",desc:"初始能量为0，入场前己方精灵每放1次火系技能，回复3能量。"},
         skills:[{name:"力量增效", element:"普通", type:"状态", cost:1, power:0,
@@ -32,7 +31,6 @@ const petList26 = [
         ]
     },
     {id:252,name:"布鲁斯",element:["冰"],
-        avatar:"/public/images/宠物/立绘/252.png",
         hp:44,atk:60,mat:16,def:68,mdf:53,spd:54,
         trait:{name:"冰钻",desc:"敌方携带技能总能耗每有1点，自己攻击时威力+10%。"},
         skills:[{name:"冰爪", element:"冰", type:"物攻", cost:2, power:80,
@@ -64,7 +62,6 @@ const petList26 = [
         ]
     },
     {id:253,name:"雪顶布鲁斯",element:["冰"],
-        avatar:"/public/images/宠物/立绘/253.png",
         hp:58,atk:81,mat:22,def:91,mdf:70,spd:72,
         trait:{name:"冰钻",desc:"敌方携带技能总能耗每有1点，自己攻击时威力+10%。"},
         skills:[{name:"冰爪", element:"冰", type:"物攻", cost:2, power:80,
@@ -96,7 +93,6 @@ const petList26 = [
         ]
     },
     {id:254,name:"冰钻布鲁斯",element:["冰"],
-        avatar:"/public/images/宠物/立绘/254.png",
         hp:73,atk:101,mat:27,def:114,mdf:88,spd:90,
         trait:{name:"冰钻",desc:"敌方携带技能总能耗每有1点，自己攻击时威力+10%。"},
         skills:[{name:"冰爪", element:"冰", type:"物攻", cost:2, power:80,
@@ -128,7 +124,6 @@ const petList26 = [
         ]
     },
     {id:255,name:"治愈兔",element:["火","萌"],
-        avatar:"/public/images/宠物/立绘/255.png",
         hp:67,atk:28,mat:73,def:60,mdf:76,spd:54,
         trait:{name:"仁心",desc:"对敌方造成灼烧伤害时，自己回复等量生命。"},
         skills:[{name:"热气", element:"火", type:"魔攻", cost:0, power:40,
@@ -160,7 +155,6 @@ const petList26 = [
         ]
     },
     {id:256,name:"红丝绒",element:["火","萌"],
-        avatar:"/public/images/宠物/立绘/256.png",
         hp:90,atk:38,mat:98,def:80,mdf:101,spd:72,
         trait:{name:"仁心",desc:"敌方受到灼烧伤害时，自己回复等量生命。"},
         skills:[{name:"热气", element:"火", type:"魔攻", cost:0, power:40,
@@ -192,7 +186,6 @@ const petList26 = [
         ]
     },
     {id:257,name:"红绒十字",element:["火","萌"],
-        avatar:"/public/images/宠物/立绘/257.png",
         hp:10,atk:40,mat:100,def:80,mdf:100,spd:60,
         trait:{name:"仁心",desc:"对敌方造成灼烧伤害时，自己回复等量生命。"},
         skills:[{name:"热气", element:"火", type:"魔攻", cost:0, power:40,
@@ -224,7 +217,6 @@ const petList26 = [
         ]
     },
     {id:258,name:"乌达",element:["恶","火"],
-        avatar:"/public/images/宠物/立绘/258.png",
         hp:80,atk:95,mat:49,def:70,mdf:42,spd:33,
         trait:{name:"恶魔的晚宴",desc:"主动击败敌方精灵时，自己获得双攻+50%。"},
         skills:[{name:"炎息", element:"火", type:"物攻", cost:0, power:40,
@@ -256,7 +248,6 @@ const petList26 = [
         ]
     },
     {id:259,name:"迷你乌",element:["恶","火"],
-        avatar:"/public/images/宠物/立绘/259.png",
         hp:107,atk:126,mat:66,def:93,mdf:56,spd:44,
         trait:{name:"恶魔的晚宴",desc:"主动击败敌方精灵时，自己获得双攻+50%。"},
         skills:[{name:"炎息", element:"火", type:"物攻", cost:0, power:40,
@@ -288,7 +279,6 @@ const petList26 = [
         ]
     },
     {id:260,name:"乌拉塔",element:["恶","火"],
-        avatar:"/public/images/宠物/立绘/260.png",
         hp:134,atk:158,mat:82,def:116,mdf:70,spd:55,
         trait:{name:"恶魔的晚宴",desc:"主动击败敌方精灵时，自己获得双攻+50%。"},
         skills:[{name:"炎息", element:"火", type:"物攻", cost:0, power:40,

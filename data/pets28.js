@@ -1,6 +1,5 @@
 const petList28 = [
     {id:271,name:"绒光优优",element:["地","光"],
-        avatar:"/public/images/宠物/立绘/271.png",
         hp:101,atk:43,mat:111,def:105,mdf:130,spd:115,
         trait:{name:"哨兵",desc:"回合开始时若敌方技能足够击败自己，自己获得速度+50，行动后脱离。"},
         skills:[{name:"泥浆", element:"地", type:"魔攻", cost:0, power:40,
@@ -32,7 +31,6 @@ const petList28 = [
         ]
     },
     {id:272,name:"噼啪鸟",element:["电","翼"],
-        avatar:"/public/images/宠物/立绘/272.png",
         hp:78,atk:116,mat:109,def:85,mdf:85,spd:145,
         trait:{name:"连续负荷",desc:"自己技能的迸发效果延长1回合。"},
         skills:[{name:"魔法增效", element:"普通", type:"状态", cost:0, power:0,
@@ -68,7 +66,6 @@ const petList28 = [
         ]
     },
     {id:273,name:"深蓝鲸",element:["水"],
-        avatar:"/public/images/宠物/立绘/273.png",
         hp:129,atk:40,mat:115,def:119,mdf:135,spd:50,
         trait:{name:"倾轧",desc:"携带的技能受能耗变化效果的影响翻倍。"},
         skills:[{name:"甩水", element:"水", type:"魔攻", cost:0, power:30,
@@ -100,7 +97,6 @@ const petList28 = [
         ]
     },
     {id:274,name:"格兰种子",element:["草"],
-        avatar:"/public/images/宠物/立绘/274.png",
         hp:65,atk:31,mat:74,def:48,mdf:67,spd:36,
         trait:{name:"生长",desc:"回合结束时，回复12%生命。"},
         skills:[{name:"晒太阳", element:"普通", type:"状态", cost:1, power:0,
@@ -130,7 +126,6 @@ const petList28 = [
         ]
     },
     {id:275,name:"格兰花",element:["草"],
-        avatar:"/public/images/宠物/立绘/275.png",
         hp:86,atk:42,mat:99,def:64,mdf:90,spd:48,
         trait:{name:"生长",desc:"回合结束时，回复12%生命。"},
         skills:[{name:"晒太阳", element:"普通", type:"状态", cost:1, power:0,
@@ -160,7 +155,6 @@ const petList28 = [
         ]
     },
     {id:276,name:"格兰球",element:["草"],
-        avatar:"/public/images/宠物/立绘/276.png",
         hp:108,atk:52,mat:124,def:80,mdf:112,spd:60,
         trait:{name:"生长",desc:"回合结束时，回复12%生命。"},
         skills:[{name:"晒太阳", element:"普通", type:"状态", cost:1, power:0,
@@ -190,7 +184,6 @@ const petList28 = [
         ]
     },
     {id:277,name:"地鼠",element:["地"],
-        avatar:"/public/images/宠物/立绘/277.png",
         hp:66,atk:71,mat:31,def:61,mdf:42,spd:66,
         trait:{name:"警惕",desc:"回合结束时，若自己能量为0则脱离。"},
         skills:[{name:"抓挠", element:"普通", type:"物攻", cost:0, power:35,
@@ -224,7 +217,6 @@ const petList28 = [
         ]
     },
     {id:278,name:"遁鼠",element:["地"],
-        avatar:"/public/images/宠物/立绘/278.png",
         hp:88,atk:95,mat:41,def:82,mdf:56,spd:88,
         trait:{name:"",desc:""},
         skills:[{name:"抓挠", element:"普通", type:"物攻", cost:0, power:35,
@@ -258,7 +250,6 @@ const petList28 = [
         ]
     },
     {id:279,name:"遁地鼠",element:["地"],
-        avatar:"/public/images/宠物/立绘/279.png",
         hp:110,atk:119,mat:51,def:102,mdf:70,spd:110,
         trait:{name:"警惕",desc:"回合结束时，若自己能量为0则脱离。"},
         skills:[{name:"抓挠", element:"普通", type:"物攻", cost:0, power:35,
@@ -292,7 +283,6 @@ const petList28 = [
         ]
     },
     {id:280,name:"墨鱿士",element:["幽"],
-        avatar:"/public/images/宠物/立绘/280.png",
         hp:103,atk:84,mat:34,def:105,mdf:79,spd:56,
         trait:{name:"涂鸦",desc:"使用非本系技能时威力+50%。"},
         skills:[{name:"诡刺", element:"幽", type:"物攻", cost:0, power:40,

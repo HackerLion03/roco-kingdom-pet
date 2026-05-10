@@ -1,6 +1,6 @@
 const petList12 = [
     {id:111,name:"石石",element:["地"],
-        avatar:"/public/images/111.png",
+         
         hp:76,atk:79,mat:79,def:101,mdf:56,spd:76,
         trait:{name:"石天平",desc:"若使用技能能耗高于敌方，回合结束敌方失去能耗之差的能量。"},
         skills:[{name:"鬼火", element:"幽", type:"魔攻", cost:0, power:30,
@@ -34,7 +34,7 @@ const petList12 = [
         ]
     },
     {id:112,name:"巨灵石",element:["地","幽"],
-        avatar:"/public/images/112.png",
+         
         hp:95,atk:99,mat:99,def:126,mdf:70,spd:95,
         trait:{name:"石天平",desc:"若使用技能能耗高于敌方，回合结束敌方失去能耗之差的能量。"},
         skills:[{name:"鬼火", element:"幽", type:"魔攻", cost:0, power:30,
@@ -68,7 +68,7 @@ const petList12 = [
         ]
     },
     {id:113,name:"仪使者",element:["地","幻"],
-        avatar:"/public/images/113.png",
+         
         hp:64,atk:54,mat:57,def:69,mdf:71,spd:51,
         trait:{name:"观星",desc:"敌方每有1层星陨印记，自己的地系技能威力+15%。"},
         skills:[{name:"硬化", element:"地", type:"防御", cost:2, power:0,
@@ -106,7 +106,7 @@ const petList12 = [
         ]
     },
     {id:114,name:"仪式之星",element:["地","幻"],
-        avatar:"/public/images/114.png",
+         
         hp:85,atk:72,mat:76,def:92,mdf:95,spd:68,
         trait:{name:"观星",desc:"敌方每有1层星陨印记，自己的地系技能威力+15%。"},
         skills:[{name:"硬化", element:"地", type:"防御", cost:2, power:0,
@@ -144,7 +144,7 @@ const petList12 = [
         ]
     },
     {id:115,name:"仪式巨像",element:["地","幻"],
-        avatar:"/public/images/115.png",
+         
         hp:106,atk:90,mat:95,def:115,mdf:119,spd:85,
         trait:{name:"观星",desc:"敌方每有1层星陨印记，自己的地系技能威力+15%。"},
         skills:[{name:"硬化", element:"地", type:"防御", cost:2, power:0,
@@ -182,7 +182,7 @@ const petList12 = [
         ]
     },
     {id:116,name:"小独角兽",element:["光"],
-        avatar:"/public/images/116.png",
+         
         hp:79,atk:48,mat:129,def:62,mdf:74,spd:84,
         trait:{name:"目空",desc:"携带的非光系技能，威力+25%。"},
         skills:[{name:"许愿星", element:"普通", type:"魔攻", cost:3, power:110,
@@ -214,7 +214,7 @@ const petList12 = [
         ]
     },
     {id:117,name:"白金独角兽",element:["光"],
-        avatar:"/public/images/117.png",
+         
         hp:99,atk:61,mat:161,def:77,mdf:92,spd:105,
         trait:{name:"目空",desc:"携带的非光系技能，威力+25%。"},
         skills:[{name:"许愿星", element:"普通", type:"魔攻", cost:3, power:110,
@@ -246,7 +246,7 @@ const petList12 = [
         ]
     },
     {id:118,name:"旋叶虫",element:["普通","虫"],
-        avatar:"/public/images/118.png",
+         
         hp:56,atk:15,mat:65,def:63,mdf:55,spd:72,
         trait:{name:"共鸣",desc:"携带的【虫鸣】技能威力+20。"},
         skills:[{name:"虫网", element:"虫", type:"魔攻", cost:0, power:30,
@@ -276,7 +276,7 @@ const petList12 = [
         ]
     },
     {id:119,name:"蓬叶虫",element:["普通","虫"],
-        avatar:"/public/images/119.png",
+         
         hp:74,atk:19,mat:87,def:84,mdf:73,spd:96,
         trait:{name:"共鸣",desc:"携带的【虫鸣】技能威力+20。"},
         skills:[{name:"虫网", element:"虫", type:"魔攻", cost:0, power:30,
@@ -306,7 +306,7 @@ const petList12 = [
         ]
     },
     {id:120,name:"风滚暮虫",element:["普通","虫"],
-        avatar:"/public/images/120.png",
+         
         hp:93,atk:24,mat:109,def:105,mdf:91,spd:120,
         trait:{name:"共鸣",desc:"携带的【虫鸣】技能威力+20。"},
         skills:[{name:"虫网", element:"虫", type:"魔攻", cost:0, power:30,

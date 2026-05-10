@@ -1,6 +1,5 @@
 const petList20 = [
     {id:191,name:"棋祈督",element:["武","地"],
-        avatar:"/public/images/191.png",
         hp:126,atk:87,mat:87,def:90,mdf:72,spd:85,
         trait:{name:"好象坏象",desc:"状态技能应对1次后，回满状态，变为棋绮后"},
         skills:[{name:"寸拳", element:"武", type:"物攻", cost:0, power:30,
@@ -40,7 +39,6 @@ const petList20 = [
         ]
     },
     {id:192,name:"棋绮后",element:["武","地"],
-        avatar:"/public/images/192.png",
         hp:93,atk:84,mat:84,def:82,mdf:75,spd:90,
         trait:{name:"渗透",desc:"己方精灵每使用1次武系或地系技能，自己入场时获得攻防+5%。"},
         skills:[{name:"寸拳", element:"武", type:"物攻", cost:0, power:30,
@@ -80,7 +78,6 @@ const petList20 = [
         ]
     },
     {id:193,name:"奔波鼠",element:["地"],
-        avatar:"/public/images/193.png",
         hp:72,atk:37,mat:93,def:67,mdf:90,spd:92,
         trait:{name:"奔波命",desc:"使用防御技能后，回合结束时脱离。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -112,7 +109,6 @@ const petList20 = [
         ]
     },
     {id:194,name:"流浪鼠",element:["地"],
-        avatar:"/public/images/194.png",
         hp:90,atk:46,mat:116,def:84,mdf:112,spd:115,
         trait:{name:"奔波命",desc:"使用防御技能后，回合结束时脱离。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -144,7 +140,6 @@ const petList20 = [
         ]
     },
     {id:195,name:"呆小路",element:["草","萌"],
-        avatar:"/public/images/195.png",
         hp:52,atk:60,mat:64,def:68,mdf:79,spd:57,
         trait:{name:"营养液泡",desc:"获得增益时，额外获得层数+2。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -180,7 +175,6 @@ const petList20 = [
         ]
     },
     {id:196,name:"舞动路路",element:["草","萌"],
-        avatar:"/public/images/196.png",
         hp:69,atk:80,mat:86,def:91,mdf:105,spd:76,
         trait:{name:"营养液泡",desc:" 获得增益时，额外获得层数+2。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -216,7 +210,6 @@ const petList20 = [
         ]
     },
     {id:197,name:"白发路路",element:["草","萌"],
-        avatar:"/public/images/197.png",
         hp:79,atk:65,mat:65,def:77,mdf:50,spd:75,
         trait:{name:"营养液泡",desc:"获得增益时，额外获得层数+2。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -252,7 +245,6 @@ const petList20 = [
         ]
     },
     {id:198,name:"逗逗",element:["萌"],
-        avatar:"/public/images/198.png",
         hp:48,atk:70,mat:64,def:68,mdf:68,spd:66,
         trait:{name:"鼓气",desc:"使用能耗为3的技能时，获得攻防+20%。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -288,7 +280,6 @@ const petList20 = [
         ]
     },
     {id:199,name:"气球猫",element:["萌"],
-        avatar:"/public/images/199.png",
         hp:64,atk:93,mat:86,def:90,mdf:90,spd:88,
         trait:{name:"鼓气",desc:"使用能耗为3的技能时，获得攻防+20%。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -324,7 +315,6 @@ const petList20 = [
         ]
     },
     {id:200,name:"梦想三三",element:["萌"],
-        avatar:"/public/images/200.png",
         hp:81,atk:117,mat:107,def:113,mdf:113,spd:110,
         trait:{name:"鼓气",desc:" 使用能耗为3的技能时，获得攻防+20%。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,

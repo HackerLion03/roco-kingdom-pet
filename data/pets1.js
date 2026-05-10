@@ -1,6 +1,5 @@
 const petList1 = [
     {id:1,name:"迪莫",element:"光",
-        avatar:"/public/images/1.png",
         hp:120,atk:80,mat:80,def:105,mdf:105,spd:92,
         trait:{name:"最好的伙伴", desc:"造成克制伤害后，获得攻防速+20%，并回复2能量。"},
         skills:[{name:"猛烈撞击", element:"普通", type:"物攻", cost:1, power:60,
@@ -44,7 +43,6 @@ const petList1 = [
         ]
     },
     {id:2,name:"喵喵",element:"草",
-        avatar:"/public/images/2.png",
         hp:63,atk:57,mat:57,def:56,mdf:59,spd:33,
         trait:{name:"氧循环",desc:"使用草系技能后，回复10%生命。"},
         skills:[{name:"抓挠", element:"普通", type:"物攻", cost:0, power:30,
@@ -82,7 +80,6 @@ const petList1 = [
         ]
     },
     {id:3,name:"喵呜",element:"草",
-        avatar:"/public/images/3.png",
         hp:85,atk:77,mat:77,def:75,mdf:79,spd:44,
         trait:{name:"氧循环",desc:"使用草系技能后，回复10%生命。"},
         skills:[{name:"抓挠", element:"普通", type:"物攻", cost:0, power:30,
@@ -120,7 +117,6 @@ const petList1 = [
         ]
     },
     {id:4,name:"魔力猫",element:"草",
-        avatar:"/public/images/4.png",
         hp:106,atk:96,mat:96,def:94,mdf:99,spd:55,
         trait:{name:"氧循环",desc:"使用草系技能后，回复10%生命。"},
         skills:[{name:"抓挠", element:"普通", type:"物攻", cost:0, power:30,
@@ -158,7 +154,6 @@ const petList1 = [
         ]
     },
     {id:5,name:"火花",element:"火",
-        avatar:"/public/images/5.png",
         hp:70,atk:84,mat:37,def:56,mdf:43,spd:78,
         trait:{name:"助燃",desc:"使用火系技能后，双攻+20%。"},
         skills:[{name:"猛烈撞击", element:"普通", type:"物攻", cost:1, power:60,
@@ -190,7 +185,6 @@ const petList1 = [
         ]   
     },
     {id:6,name:"焰火",element:"火",
-        avatar:"/public/images/6.png",
         hp:93,atk:111,mat:49,def:75,mdf:58,spd:104,
         trait:{name:"助燃",desc:"使用火系技能后，双攻+20%。"},
         skills:[{name:"猛烈撞击", element:"普通", type:"物攻", cost:1, power:60,
@@ -222,7 +216,6 @@ const petList1 = [
         ]   
     },
     {id:7,name:"火神",element:"火",
-        avatar:"/public/images/7.png",
         hp:117,atk:139,mat:61,def:94,mdf:72,spd:130,
         trait:{name:"助燃",desc:"使用火系技能后，双攻+20%。"},
         skills:[{name:"猛烈撞击", element:"普通", type:"物攻", cost:1, power:60,
@@ -254,7 +247,6 @@ const petList1 = [
         ]   
     },
     {id:8,name:"水蓝蓝",element:"水",
-        avatar:"/public/images/8.png",
         hp:75,atk:35,mat:76,def:56,mdf:79,spd:51,
         trait:{name:"浸润",desc:"使用水系技能后，能耗-1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -286,7 +278,6 @@ const petList1 = [
         ]
     },
     {id:9,name:"波波拉",element:"水",
-        avatar:"/public/images/9.png",
         hp:100,atk:46,mat:102,def:75,mdf:106,spd:68,
         trait:{name:"浸润",desc:"使用水系技能后，能耗-1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
@@ -318,7 +309,6 @@ const petList1 = [
         ]
     },
     {id:10,name:"水灵",element:"水",
-        avatar:"/public/images/10.png",
         hp:125,atk:58,mat:127,def:94,mdf:132,spd:85,
         trait:{name:"浸润",desc:"使用水系技能后，能耗-1。"},
         skills:[{name:"防御", element:"普通", type:"防御", cost:1, power:0,
