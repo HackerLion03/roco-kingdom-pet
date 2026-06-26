@@ -194,7 +194,7 @@ const petList11 = [
             desc:"对敌方精灵造成物理伤害。"},
         ]
     },
-    {id:107,name:"罗隐",element:["地"],
+    {id:107,name:"罗隐",element:["地","恶"],
          
         hp:107,atk:159,mat:78,def:112,mdf:70,spd:75,
         trait:{name:"石头大餐",desc:"能量不足时，消耗5%生命，代替1能量。"},
